@@ -31,5 +31,5 @@
 
 <h3 align="left">Stats:</h3>
 <p>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&locale=en" alt="ikhsan3adi" />
+<img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&locale=en" alt="ikhsan3adi" />
 </p>
