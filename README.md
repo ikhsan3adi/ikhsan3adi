@@ -21,15 +21,39 @@
 
 <h2 align="center">Languages and Tools:</h2>
 <p align="center">
-<a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
-<a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
+  <img height='25em' src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+<h2 align="center">Other:</h2>
+<p align="center">
+  <img height='25em' src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
+  <img height='25em' src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
 </p>
 
 <h2 align="center">Stats:</h2>
 <p align="center">
-<img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&locale=en" alt="ikhsan3adi" />
+  <a href="https://github.com/ikhsan3adi?tab=repositories">
+    <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" width="57%" />
+  </a>
+  <a href="https://github.com/ikhsan3adi?tab=repositories">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=css,scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=0.5&count_weight=0.5&layout=compact&theme=cobalt" alt="ikhsan3adi" width="41%" />
+  </a>
+</p>
+
+<p align="center">
+<a href="https://github.com/ikhsan3adi?tab=repositories">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" alt="contribution graph" width="98%">
+</a>
 </p>
