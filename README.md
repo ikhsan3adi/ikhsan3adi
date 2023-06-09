@@ -45,6 +45,9 @@
   <a href="https://www.mysql.com/">
     <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
   </a>
+  <a href="https://www.postgresql.org/">
+    <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
 </p>
 
 <h2 align="center">Other:</h2>
@@ -57,6 +60,9 @@
   </a>
   <a href="https://brave.com/">
     <img height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
+  </a>
+  <a href="https://aws.amazon.com/">
+    <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
   </a>
   <a href="https://git-scm.com/">
     <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
