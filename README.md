@@ -36,6 +36,9 @@
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
   </a>
+  <a href="https://httpd.apache.org/">
+    <img height='25em' src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
+  </a>
   <a href="https://wikipedia.org/wiki/JavaScript">
     <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   </a>
@@ -44,6 +47,9 @@
   </a>
   <a href="https://www.mysql.com/">
     <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+  </a>
+  <a href="https://mariadb.org/">
+    <img height='25em' src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
   </a>
   <a href="https://www.postgresql.org/">
     <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -66,6 +72,9 @@
   </a>
   <a href="https://git-scm.com/">
     <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  </a>
+  <a href="https://ubuntu.com/">
+    <img height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
   </a>
   <a href="https://www.adobe.com/products/photoshop.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
