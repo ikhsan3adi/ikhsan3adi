@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
-<h3 align="center">A passionate mobile developer from Indonesia</h3>
+<h3 align="center">A passionate developer from Indonesia</h3>
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Flutter and backend development
+- 🌱 I’m currently learning Flutter and NodeJS
 
 <h2 align="center">Connect with me:</h2>
 <p align="center">
