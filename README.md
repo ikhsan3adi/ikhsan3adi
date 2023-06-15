@@ -4,7 +4,7 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Flutter and NodeJS
+- 🌱 I’m currently learning Flutter and Node.JS
 
 <h2 align="center">Connect with me:</h2>
 <p align="center">
