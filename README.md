@@ -21,15 +21,18 @@
 
 <h2 align="center">Languages and Tools:</h2>
 <p align="center">
+  <a href="https://dart.dev/">
+    <img height='25em' src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
+  </a>
   <a href="https://flutter.dev/">
     <img height='25em' src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   </a>
-  <a href="https://android.com">
+  <!-- <a href="https://android.com">
     <img height='25em' src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  </a>
-  <a href="https://kotlinlang.org/">
+  </a> -->
+  <!-- <a href="https://kotlinlang.org/">
     <img height='25em' src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" />
-  </a>
+  </a> -->
   <a href="https://www.php.net/">
     <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   </a>
@@ -53,6 +56,9 @@
   </a>
   <a href="https://www.postgresql.org/">
     <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
+  <a href="https://www.rabbitmq.com/">
+    <img height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
   </a>
 </p>
 
