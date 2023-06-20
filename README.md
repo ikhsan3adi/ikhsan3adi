@@ -11,6 +11,9 @@
   <a href="https://www.instagram.com/ikhsan3adi">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>&nbsp;&nbsp;
+  <a href="https://www.facebook.com/onetrd">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
@@ -39,9 +42,9 @@
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
   </a>
-  <a href="https://httpd.apache.org/">
+  <!-- <a href="https://httpd.apache.org/">
     <img height='25em' src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
-  </a>
+  </a> -->
   <a href="https://wikipedia.org/wiki/JavaScript">
     <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   </a>
@@ -85,7 +88,7 @@
   <a href="https://ubuntu.com/">
     <img height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
   </a>
-  <a href="https://www.adobe.com/products/photoshop.html">
+  <!-- <a href="https://www.adobe.com/products/photoshop.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
   </a>
   <a href="https://www.adobe.com/products/illustrator.html">
@@ -93,7 +96,7 @@
   </a>
   <a href="https://www.blender.org">
     <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
-  </a>
+  </a> -->
 </p>
 
 <h2 align="center">Stats:</h2>
