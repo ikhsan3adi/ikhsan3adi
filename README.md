@@ -4,7 +4,7 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Flutter and Node.JS
+- 🌱 I’m currently learning Flutter, Node.JS, Tailwind CSS & Svelte!
 
 <h2 align="center">Connect with me:</h2>
 <p align="center">
@@ -41,6 +41,9 @@
   </a>
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </a>
   <!-- <a href="https://httpd.apache.org/">
     <img height='25em' src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
@@ -102,17 +105,17 @@
 <h2 align="center">Stats:</h2>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" width="57%" />
+    <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" title="Stats" width="57%" />
   </a>
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=css,scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=0.5&count_weight=0.5&layout=compact&theme=cobalt"
-      alt="ikhsan3adi" width="41%" />
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=1&count_weight=0&layout=compact&theme=cobalt"
+      alt="ikhsan3adi" title="Most used languages" width="41%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" alt="contribution graph" width="99%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" title="contribution graph" width="99%">
   </a>
 </p>
