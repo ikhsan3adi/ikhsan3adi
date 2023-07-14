@@ -17,6 +17,9 @@
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
+  <a href="https://t.me/xann_xenn_xinn">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>&nbsp;&nbsp;
   <a href="mailto:ikhsansatriadi175@gmail.com">
     <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
   </a>&nbsp;&nbsp;
@@ -42,6 +45,12 @@
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
   </a>
+  <a href="https://getbootstrap.com/">
+    <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  </a>
+  <a href="https://svelte.dev/">
+    <img height='25em' src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" />
+  </a>
   <a href="https://tailwindcss.com/">
     <img height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </a>
@@ -57,18 +66,18 @@
   <a href="https://www.mysql.com/">
     <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
   </a>
-  <a href="https://mariadb.org/">
+  <!-- <a href="https://mariadb.org/">
     <img height='25em' src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  </a>
+  </a> -->
   <a href="https://www.postgresql.org/">
     <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
-  <a href="https://www.rabbitmq.com/">
+  <!-- <a href="https://www.rabbitmq.com/">
     <img height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
   </a>
   <a href="https://redis.io/">
     <img height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
-  </a>
+  </a> -->
 </p>
 
 <h2 align="center">Other:</h2>
@@ -79,25 +88,31 @@
   <a href="https://www.postman.com/">
     <img height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
   </a>
-  <a href="https://brave.com/">
+  <!-- <a href="https://brave.com/">
     <img height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
-  </a>
-  <a href="https://aws.amazon.com/">
+  </a> -->
+  <!-- <a href="https://aws.amazon.com/">
     <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  </a>
+  </a> -->
   <a href="https://git-scm.com/">
     <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
   </a>
   <a href="https://ubuntu.com/">
     <img height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
   </a>
-  <!-- <a href="https://www.adobe.com/products/photoshop.html">
+  <a href="https://github.com/">
+    <img height='25em' src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
+  </a>
+  <a href="https://figma.com/">
+    <img height='25em' src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
+  </a>
+  <a href="https://www.adobe.com/products/photoshop.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
   </a>
   <a href="https://www.adobe.com/products/illustrator.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
   </a>
-  <a href="https://www.blender.org">
+  <!-- <a href="https://www.blender.org">
     <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
   </a> -->
 </p>
