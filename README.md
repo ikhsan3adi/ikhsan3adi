@@ -128,7 +128,11 @@
       alt="ikhsan3adi" title="Most used languages" width="41%" />
   </a>
 </p>
-
+<p align="center">
+<a href="https://github.com/ikhsan3adi?tab=repositories">
+    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=800&date_format=d M Y" title="contribution graph" width="99%">
+  </a>
+</p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" title="contribution graph" width="99%">
