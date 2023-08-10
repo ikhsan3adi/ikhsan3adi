@@ -6,25 +6,28 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Flutter, Node.JS, Tailwind CSS & Svelte!
+- 🌱 I’m currently learning Flutter, Node.JS & Laravel!
 
 <h2 align="center">Connect with me:</h2>
 <p align="center">
   <a href="https://www.instagram.com/ikhsan3adi">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" title="@ikhsan3adi" />
+  </a>
   <a href="https://www.facebook.com/onetrd">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" title="Ikhsan Satriadi" />
+  </a>
+  <a href="https://www.youtube.com/@XiboxCode">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" title="Xibox Code" />
+  </a>
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" title="Ikhsan Satriadi" />
+  </a>
   <a href="https://t.me/xann_xenn_xinn">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" title="Ikhsan" />
+  </a>
   <a href="mailto:ikhsansatriadi175@gmail.com">
-    <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" title="ikhsansatriadi175@gmail.com" />
+  </a>
 </p>
 
 <h2 align="center">Languages and Tools:</h2>
@@ -46,6 +49,9 @@
   </a>
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
+  </a>
+  <a href="https://laravel.com">
+    <img height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
   </a>
   <a href="https://getbootstrap.com/">
     <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
@@ -132,11 +138,11 @@
 </p>
 <p align="center">
 <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=800&date_format=d M Y" title="contribution graph" width="99%">
+    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=800&date_format=d M Y" title="Contribution streak" width="99%">
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" title="contribution graph" width="99%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" title="Contribution graph" width="99%">
   </a>
 </p>
