@@ -38,12 +38,6 @@
   <a href="https://flutter.dev/">
     <img height='25em' src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   </a>
-  <!-- <a href="https://android.com">
-    <img height='25em' src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  </a> -->
-  <!-- <a href="https://kotlinlang.org/">
-    <img height='25em' src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" />
-  </a> -->
   <a href="https://www.php.net/">
     <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   </a>
@@ -62,9 +56,6 @@
   <a href="https://tailwindcss.com/">
     <img height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </a>
-  <!-- <a href="https://httpd.apache.org/">
-    <img height='25em' src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
-  </a> -->
   <a href="https://wikipedia.org/wiki/JavaScript">
     <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   </a>
@@ -74,9 +65,9 @@
   <a href="https://www.mysql.com/">
     <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
   </a>
-  <!-- <a href="https://mariadb.org/">
+  <a href="https://mariadb.org/">
     <img height='25em' src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  </a> -->
+  </a>
   <a href="https://www.postgresql.org/">
     <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
