@@ -71,12 +71,12 @@
   <a href="https://www.postgresql.org/">
     <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
-  <!-- <a href="https://www.rabbitmq.com/">
+  <a href="https://www.rabbitmq.com/">
     <img height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
   </a>
   <a href="https://redis.io/">
     <img height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
-  </a> -->
+  </a>
 </p>
 
 <h2 align="center">Other:</h2>
