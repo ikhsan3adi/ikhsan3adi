@@ -111,9 +111,9 @@
   <a href="https://www.adobe.com/products/illustrator.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
   </a>
-  <!-- <a href="https://www.blender.org">
+  <a href="https://www.blender.org">
     <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
-  </a> -->
+  </a>
 </p>
 
 <h2 align="center">Stats:</h2>
