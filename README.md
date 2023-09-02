@@ -2,8 +2,6 @@
 
 <h3 align="center">A passionate developer from Indonesia</h3>
 
-- 📆 18 years old
-
 - ✨ Creating bugs since 2021
 
 - 🌱 I’m currently learning Flutter, Node.JS & Laravel!
