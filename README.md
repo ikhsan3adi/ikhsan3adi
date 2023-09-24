@@ -4,7 +4,7 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Flutter, Node.JS & Laravel!
+- 🌱 I’m currently learning Back-end with Node.JS!
 
 <h2 align="center">Connect with me:</h2>
 <p align="center">
@@ -103,15 +103,15 @@
   <a href="https://figma.com/">
     <img height='25em' src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
   </a>
-  <a href="https://www.adobe.com/products/photoshop.html">
+  <!-- <a href="https://www.adobe.com/products/photoshop.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
-  </a>
-  <a href="https://www.adobe.com/products/illustrator.html">
+  </a> -->
+  <!-- <a href="https://www.adobe.com/products/illustrator.html">
     <img height='25em' src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
-  </a>
-  <a href="https://www.blender.org">
+  </a> -->
+  <!-- <a href="https://www.blender.org">
     <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
-  </a>
+  </a> -->
 </p>
 
 <h2 align="center">Stats:</h2>
