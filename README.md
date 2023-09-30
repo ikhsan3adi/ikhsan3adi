@@ -11,11 +11,8 @@
   <a href="https://www.instagram.com/ikhsan3adi">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" title="@ikhsan3adi" />
   </a>
-  <a href="https://www.facebook.com/onetrd">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" title="Ikhsan Satriadi" />
-  </a>
-  <a href="https://www.youtube.com/@XiboxCode">
-    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" title="Xibox Code" />
+  <a href="https://twitter.com/ikhsan3adi">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" title="@ikhsan3adi" />
   </a>
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" title="Ikhsan Satriadi" />
