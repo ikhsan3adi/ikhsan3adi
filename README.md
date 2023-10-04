@@ -6,8 +6,8 @@
 
 - 🌱 I’m currently learning Back-end with Node.JS!
 
-<h2 align="center">Connect with me:</h2>
-<p align="center">
+<h2>Connect with me:</h2>
+<p>
   <a href="https://www.instagram.com/ikhsan3adi">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" title="@ikhsan3adi" />
   </a>
@@ -22,8 +22,8 @@
   </a>
 </p>
 
-<h2 align="center">Languages and Tools:</h2>
-<p align="center">
+<h2>Languages and Tools:</h2>
+<p>
   <a href="https://dart.dev/">
     <img height='25em' src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
   </a>
@@ -71,8 +71,8 @@
   </a>
 </p>
 
-<h2 align="center">Other:</h2>
-<p align="center">
+<h2>Other:</h2>
+<p>
   <a href="https://code.visualstudio.com/">
     <img height='25em' src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
   </a>
@@ -108,7 +108,7 @@
   </a> -->
 </p>
 
-<h2 align="center">Stats:</h2>
+<h2>Stats:</h2>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" title="Stats" width="57%" />
