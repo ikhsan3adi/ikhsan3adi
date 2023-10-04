@@ -17,9 +17,6 @@
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" title="Ikhsan Satriadi" />
   </a>
-  <a href="https://t.me/xann_xenn_xinn">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" title="Ikhsan" />
-  </a>
   <a href="mailto:ikhsansatriadi175@gmail.com">
     <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" title="ikhsansatriadi175@gmail.com" />
   </a>
@@ -39,9 +36,9 @@
   <a href="https://www.codeigniter.com">
     <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
   </a>
-  <a href="https://laravel.com">
+  <!--<a href="https://laravel.com">
     <img height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
-  </a>
+  </a> -->
   <a href="https://getbootstrap.com/">
     <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
   </a>
