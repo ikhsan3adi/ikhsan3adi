@@ -51,6 +51,9 @@
   <a href="https://wikipedia.org/wiki/JavaScript">
     <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   </a>
+  <a href="https://www.typescriptlang.org/">
+    <img height='25em' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  </a>
   <a href="https://nodejs.org/">
     <img height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   </a>
@@ -85,9 +88,18 @@
   <!-- <a href="https://brave.com/">
     <img height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
   </a> -->
-  <!-- <a href="https://aws.amazon.com/">
+  <a href="https://jestjs.io/">
+    <img height='25em' src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
+  </a>
+  <a href="https://eslint.org/">
+    <img height='25em' src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />
+  </a>
+  <a href="https://swagger.io/">
+    <img height='25em' src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
+  </a>
+  <a href="https://aws.amazon.com/">
     <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  </a> -->
+  </a>
   <a href="https://git-scm.com/">
     <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
   </a>
