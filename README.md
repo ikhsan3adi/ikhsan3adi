@@ -134,7 +134,9 @@
   <img height='25em' src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
 </a> -->
 
-<h2>Stats:</h2>
+---
+
+<h3 align="center">Statistics</h3>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" title="Stats" width="57%" />
@@ -146,12 +148,12 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=800&date_format=d M Y" title="Contribution streak" width="99%">
+  <a href="https://github.com/ikhsan3adi?tab=repositories">
+    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y" title="Contribution streak" width="99%">
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=350" title="Contribution graph" width="99%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300" title="Contribution graph" width="99%">
   </a>
 </p>
