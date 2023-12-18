@@ -26,6 +26,8 @@
   </a>
 </p>
 
+---
+
 ### Languages and Tools
 
 <a href="https://www.php.net/">
