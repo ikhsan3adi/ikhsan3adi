@@ -28,7 +28,7 @@
 
 ---
 
-### Languages and Tools
+#### Languages
 
 <a href="https://www.php.net/">
   <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
