@@ -4,7 +4,7 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Back-end with Node.JS!
+- 🌱 I’m currently learning Back-end with NestJS!
 
 ### Connect with me
 
@@ -145,7 +145,7 @@
   </a>
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=1&count_weight=0&layout=compact&theme=cobalt"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=0.75&count_weight=0.25&layout=compact&theme=cobalt"
       alt="ikhsan3adi" title="Most used languages" width="41%" />
   </a>
 </p>
