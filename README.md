@@ -4,7 +4,9 @@
 
 - ✨ Creating bugs since 2021
 
-- 🌱 I’m currently learning Back-end with NestJS!
+- 🌱 I’m currently learning Flutter
+
+- 🌱 I’m currently learning Back-end with NestJS also!
 
 ### Connect with me
 
