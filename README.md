@@ -26,6 +26,9 @@
   <a href="mailto:ikhsansatriadi175@gmail.com">
     <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" title="ikhsansatriadi175@gmail.com" />
   </a>
+  <a href="https://wa.me/62895338593923">
+    <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" title="whatsapp" />
+  </a>
 </p>
 
 ---
