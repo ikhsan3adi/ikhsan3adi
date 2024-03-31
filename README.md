@@ -150,18 +150,18 @@
         media="(prefers-color-scheme: dark)"
       />
       <img align="center" src="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&theme=vue&include_all_commits=true&rank_icon=percentile&number_format=long&show=prs_merged,prs_merged_percentage,discussions_answered"
-      alt="ikhsan3adi" title="Stats" width="57%" height=331 />
+      alt="ikhsan3adi" title="Stats" width="57%" />
     </picture>
   </a>
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
       <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=scss%2Ccmake%2Chack%2Cobjective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=cmake%2Cobjective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
         media="(prefers-color-scheme: dark)"
       />
     <img align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=vue&hide=scss,html,cmake,swift,objective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
-      alt="ikhsan3adi" title="Most used languages" width="41%" height=331 />
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=vue&hide=cmake,objective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
+      alt="ikhsan3adi" title="Most used languages" width="41%" />
     </picture>
   </a>
 </p>
