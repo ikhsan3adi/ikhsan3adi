@@ -144,21 +144,46 @@
 <h3 align="center">Statistics</h3>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en&include_all_commits=true&rank_icon=percentile&show=discussions_answered,prs_merged,prs_merged_percentage&number_format=long" alt="ikhsan3adi" title="Stats" width="57%" />
+    <picture>
+      <source
+        srcset="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&theme=cobalt&include_all_commits=true&rank_icon=percentile&number_format=long&show=prs_merged%2Cprs_merged_percentage%2Cdiscussions_answered"
+        media="(prefers-color-scheme: dark)"
+      />
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&theme=vue&include_all_commits=true&rank_icon=percentile&number_format=long&show=prs_merged,prs_merged_percentage,discussions_answered"
+      alt="ikhsan3adi" title="Stats" width="57%" height=331 />
+    </picture>
   </a>
   <a href="https://github.com/ikhsan3adi?tab=repositories">
+    <picture>
+      <source
+        srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=scss%2Ccmake%2Chack%2Cobjective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
+        media="(prefers-color-scheme: dark)"
+      />
     <img align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=scss,html,cmake,swift,objective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
-      alt="ikhsan3adi" title="Most used languages" width="41%" />
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=vue&hide=scss,html,cmake,swift,objective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
+      alt="ikhsan3adi" title="Most used languages" width="41%" height=331 />
+    </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y" title="Contribution streak" width="99%">
+    <picture>
+       <source
+        srcset="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y"
+        media="(prefers-color-scheme: dark)"
+      />
+      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="98%">
+    </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300" title="Contribution graph" width="99%">
+    <picture>
+      <source
+        srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300"
+        media="(prefers-color-scheme: dark)"
+      />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="98%" />
+    </picture>
   </a>
 </p>
