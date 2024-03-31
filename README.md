@@ -172,7 +172,7 @@
         srcset="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y"
         media="(prefers-color-scheme: dark)"
       />
-      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="98%">
+      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%">
     </picture>
   </a>
 </p>
@@ -183,7 +183,7 @@
         srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300"
         media="(prefers-color-scheme: dark)"
       />
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="98%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="99%" />
     </picture>
   </a>
 </p>
