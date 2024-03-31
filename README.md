@@ -35,8 +35,8 @@
 
 #### Languages
 
-<a href="https://www.php.net/">
-  <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<a href="https://www.typescriptlang.org/">
+  <img height='25em' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
 </a>
 <a href="https://dart.dev/">
   <img height='25em' src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
@@ -44,17 +44,17 @@
 <a href="https://wikipedia.org/wiki/JavaScript">
   <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 </a>
-<a href="https://www.typescriptlang.org/">
-  <img height='25em' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+<a href="https://www.php.net/">
+  <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </a>
 
 #### Front-end
 
-<a href="https://getbootstrap.com/">
-  <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
-</a>
 <a href="https://tailwindcss.com/">
   <img height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</a>
+<a href="https://getbootstrap.com/">
+  <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </a>
 <a href="https://svelte.dev/">
   <img height='25em' src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" />
@@ -68,16 +68,15 @@
 
 #### Back-end
 
-<a href="https://www.codeigniter.com">
-  <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
+<a href="https://nestjs.com/">
+  <img height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
 </a>
 <a href="https://nodejs.org/">
   <img height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </a>
-<a href="https://nestjs.com/">
-  <img height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
+<a href="https://www.codeigniter.com">
+  <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
 </a>
-
 <a href="https://www.mysql.com/">
   <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 </a>
@@ -90,7 +89,6 @@
 <a href="https://www.prisma.io/">
   <img height='25em' src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
 </a>
-
 <a href="https://redis.io/">
   <img height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
 </a>
@@ -146,11 +144,11 @@
 <h3 align="center">Statistics</h3>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <img align="center" src="https://readme-stats.jonas-bernard.dev/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en" alt="ikhsan3adi" title="Stats" width="57%" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=ikhsan3adi&show_icons=true&theme=cobalt&locale=en&include_all_commits=true&rank_icon=percentile&show=discussions_answered,prs_merged,prs_merged_percentage&number_format=long" alt="ikhsan3adi" title="Stats" width="57%" />
   </a>
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <img align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&hide=scss,html,cmake,swift,objective-c&langs_count=6&&size_weight=0.75&count_weight=0.25&layout=compact&theme=cobalt"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=scss,html,cmake,swift,objective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
       alt="ikhsan3adi" title="Most used languages" width="41%" />
   </a>
 </p>
