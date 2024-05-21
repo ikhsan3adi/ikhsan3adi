@@ -72,6 +72,9 @@
 <a href="https://nodejs.org/">
   <img height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </a>
+<a href="https://laravel.com">
+  <img height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
+</a>
 <a href="https://www.codeigniter.com">
   <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
 </a>
