@@ -35,6 +35,12 @@
   <a href="mailto:ikhsansatriadi175@gmail.com">
     <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="email" title="ikhsansatriadi175@gmail.com" />
   </a>
+  <!-- <a href="https://stackoverflow.com/users/21901513/ikhsan3adi">
+    <img height='25em' src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="stackoverflow" title="stackoverflow" />
+  </a> -->
+  <!-- <a href="https://medium.com/@ikhsan3adi">
+    <img height='25em' src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="medium" title="medium" />
+  </a> -->
   <a href="https://wa.me/62895338593923">
     <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
   </a>
@@ -108,6 +114,9 @@
 </a>
 <a href="https://www.rabbitmq.com/">
   <img alt="rabbitmq" height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+</a>
+<a href="https://jwt.io">
+  <img alt="jwt" height='25em' src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" />
 </a>
 
 #### Other
