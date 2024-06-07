@@ -1,135 +1,148 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
-<h3 align="center">A passionate developer from Indonesia 🇮🇩</h3>
+> [!NOTE]
+>
+> I'm a passionate Mobile and Web Developer from Indonesia🇮🇩 with a love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
 
-- ✨ Creating bugs since 2021
+---
 
-- 🌱 I’m currently learning Laravel
+> [!IMPORTANT]
+>
+> - ✨ Creating bugs since 2021
+>
+> - 🚀 Building open-source projects
+>
+> - 🌱 Currently Learning:
+>   - Advanced Flutter techniques
+>   - Laravel with Laravel Reverb for realtime apps
+<!-- >   - Scalable backend architectures with Node.js -->
 
 ### Connect with me
 
 <p>
   <a href="https://www.instagram.com/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" title="@ikhsan3adi" />
+    <img height='25em' src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" title="@ikhsan3adi" />
   </a>
   <a href="https://twitter.com/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" title="@ikhsan3adi" />
+    <img height='25em' src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="twitter" title="@ikhsan3adi" />
   </a>
   <a href="https://www.linkedin.com/in/ikhsan-satriadi">
-    <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" title="Ikhsan Satriadi" />
+    <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="Ikhsan Satriadi" />
   </a>
   <a href="https://t.me/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" title="ikhsan3adi" />
+    <img height='25em' src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" title="ikhsan3adi" />
   </a>
   <a href="mailto:ikhsansatriadi175@gmail.com">
-    <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" title="ikhsansatriadi175@gmail.com" />
+    <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="email" title="ikhsansatriadi175@gmail.com" />
   </a>
   <a href="https://wa.me/62895338593923">
-    <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" title="whatsapp" />
+    <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
   </a>
 </p>
 
 ---
 
+### Technologies i've used
+
 #### Languages
 
 <a href="https://www.typescriptlang.org/">
-  <img height='25em' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="typescript" height='25em' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
 </a>
 <a href="https://dart.dev/">
-  <img height='25em' src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
+  <img alt="dart" height='25em' src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
 </a>
 <a href="https://wikipedia.org/wiki/JavaScript">
-  <img height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img alt="javascript" height='25em' src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 </a>
 <a href="https://www.php.net/">
-  <img height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img alt="php" height='25em' src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </a>
 
 #### Front-end
 
 <a href="https://tailwindcss.com/">
-  <img height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img alt="tailwindcss" height='25em' src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </a>
 <a href="https://getbootstrap.com/">
-  <img height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img alt="bootstrap" height='25em' src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </a>
 <a href="https://svelte.dev/">
-  <img height='25em' src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" />
+  <img alt="svelte" height='25em' src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" />
 </a>
 
 #### Mobile
 
 <a href="https://flutter.dev/">
-  <img height='25em' src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img alt="flutter" height='25em' src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 </a>
 
 #### Back-end
 
 <a href="https://nestjs.com/">
-  <img height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img alt="nestjs" height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
 </a>
 <a href="https://nodejs.org/">
-  <img height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img alt="nodejs" height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </a>
 <a href="https://laravel.com">
-  <img height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img alt="laravel" height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
 </a>
 <a href="https://www.codeigniter.com">
-  <img height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
+  <img alt="codeigniter" height='25em' src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white" />
 </a>
 <a href="https://www.mysql.com/">
-  <img height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img alt="mysql" height='25em' src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 </a>
 <a href="https://mariadb.org/">
-  <img height='25em' src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img alt="mariadb" height='25em' src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
 </a>
 <a href="https://www.postgresql.org/">
-  <img height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="postgresql" height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
 </a>
 <a href="https://www.prisma.io/">
-  <img height='25em' src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
+  <img alt="prisma" height='25em' src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
 </a>
 <a href="https://redis.io/">
-  <img height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
+  <img alt="redis" height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
 </a>
 <a href="https://www.rabbitmq.com/">
-  <img height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+  <img alt="rabbitmq" height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
 </a>
 
 #### Other
 
 <a href="https://code.visualstudio.com/">
-  <img height='25em' src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img alt="vscode" height='25em' src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </a>
 <a href="https://www.postman.com/">
-  <img height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
+  <img alt="postman" height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
 </a>
-<a href="https://jestjs.io/">
-  <img height='25em' src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
+<!-- <a href="https://jestjs.io/">
+  <img alt="jest" height='25em' src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
 </a>
 <a href="https://eslint.org/">
-  <img height='25em' src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />
-</a>
+  <img alt="eslint" height='25em' src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />
+</a> -->
 <a href="https://swagger.io/">
-  <img height='25em' src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
+  <img alt="swagger" height='25em' src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
 </a>
 
 <a href="https://git-scm.com/">
-  <img height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="git" height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
 </a>
 <a href="https://ubuntu.com/">
-  <img height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img alt="ubuntu" height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </a>
 <a href="https://aws.amazon.com/">
-  <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="aws" />
 </a>
 <a href="https://github.com/">
-  <img height='25em' src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img height='25em' src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="github actions" />
 </a>
-<a href="https://figma.com/">
-  <img height='25em' src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
-</a>
+<!-- <a href="https://figma.com/">
+  <img height='25em' src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="figma" />
+</a> -->
 <!-- <a href="https://www.adobe.com/products/photoshop.html">
   <img height='25em' src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
 </a> -->
@@ -173,7 +186,7 @@
         srcset="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y"
         media="(prefers-color-scheme: dark)"
       />
-      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%">
+      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%" alt="contribution streak">
     </picture>
   </a>
 </p>
@@ -184,7 +197,7 @@
         srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300"
         media="(prefers-color-scheme: dark)"
       />
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="99%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="99%" alt="contribution graph" />
     </picture>
   </a>
 </p>
