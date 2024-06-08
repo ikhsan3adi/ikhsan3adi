@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > I'm a passionate Mobile and Web Developer from Indonesia🇮🇩 with a love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
 
 ---
 
-> [!IMPORTANT]
+> [!NOTE]
 >
 > - ✨ Creating bugs since 2021
 >
@@ -17,34 +17,36 @@
 >   - Laravel with Laravel Reverb for realtime apps
 <!-- >   - Scalable backend architectures with Node.js -->
 
-### Connect with me
-
-<p>
-  <a href="https://www.instagram.com/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" title="@ikhsan3adi" />
-  </a>
-  <a href="https://twitter.com/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="twitter" title="@ikhsan3adi" />
-  </a>
-  <a href="https://www.linkedin.com/in/ikhsan-satriadi">
-    <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="Ikhsan Satriadi" />
-  </a>
-  <a href="https://t.me/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" title="ikhsan3adi" />
-  </a>
-  <a href="mailto:ikhsansatriadi175@gmail.com">
-    <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="email" title="ikhsansatriadi175@gmail.com" />
-  </a>
-  <!-- <a href="https://stackoverflow.com/users/21901513/ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="stackoverflow" title="stackoverflow" />
-  </a> -->
-  <!-- <a href="https://medium.com/@ikhsan3adi">
-    <img height='25em' src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="medium" title="medium" />
-  </a> -->
-  <a href="https://wa.me/62895338593923">
-    <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
-  </a>
-</p>
+> [!TIP]
+>
+> ### Connect with me
+>
+> <p>
+> <a href="https://www.instagram.com/ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" title="@ikhsan3adi" />
+> </a>
+> <a href="https://twitter.com/ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="twitter" title="@ikhsan3adi" />
+> </a>
+> <a href="https://www.linkedin.com/in/ikhsan-satriadi">
+> <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="Ikhsan Satriadi" />
+> </a>
+> <a href="https://t.me/ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" title="ikhsan3adi" />
+> </a>
+> <a href="mailto:ikhsansatriadi175@gmail.com">
+> <img height='25em' src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="email" title="ikhsansatriadi175@gmail.com" />
+> </a>
+> <!-- <a href="https://stackoverflow.com/users/21901513/ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="stackoverflow" title="stackoverflow" />
+> </a> -->
+> <!-- <a href="https://medium.com/@ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="medium" title="medium" />
+> </a> -->
+> <a href="https://wa.me/62895338593923">
+> <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
+> </a>
+> </p>
 
 ---
 
