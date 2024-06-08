@@ -3,8 +3,7 @@
 > [!IMPORTANT]
 >
 > I'm a passionate Mobile and Web Developer from Indonesia🇮🇩 with a love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
-
----
+<!--  -->
 
 > [!NOTE]
 >
