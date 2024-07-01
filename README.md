@@ -13,8 +13,7 @@
 >
 > - 🌱 Currently Learning:
 >   - Flutter
->   - Laravel
->   - Laravel Livewire
+>   - Laravel + Livewire
 <!--  -->
 
 > [!TIP]
