@@ -12,9 +12,10 @@
 > - 🚀 Building open-source projects
 >
 > - 🌱 Currently Learning:
->   - Advanced Flutter techniques
->   - Laravel with Laravel Reverb for realtime apps
-<!-- >   - Scalable backend architectures with Node.js -->
+>   - Flutter
+>   - Laravel
+>   - Laravel Livewire
+<!--  -->
 
 > [!TIP]
 >
@@ -24,8 +25,8 @@
 > <a href="https://www.instagram.com/ikhsan3adi">
 > <img height='25em' src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" title="@ikhsan3adi" />
 > </a>
-> <a href="https://twitter.com/ikhsan3adi">
-> <img height='25em' src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="twitter" title="@ikhsan3adi" />
+> <a href="https://x.com/ikhsan3adi">
+> <img height='25em' src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" title="@ikhsan3adi" />
 > </a>
 > <a href="https://www.linkedin.com/in/ikhsan-satriadi">
 > <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="Ikhsan Satriadi" />
@@ -76,6 +77,9 @@
 </a>
 <a href="https://svelte.dev/">
   <img alt="svelte" height='25em' src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" />
+</a>
+<a href="https://livewire.laravel.com/">
+  <img alt="livewire" height='25em' src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" />
 </a>
 
 #### Mobile
@@ -145,7 +149,7 @@
   <img alt="ubuntu" height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </a>
 <a href="https://aws.amazon.com/">
-  <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="aws" />
+  <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon&logoColor=white" alt="aws" />
 </a>
 <a href="https://github.com/">
   <img height='25em' src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="github actions" />
