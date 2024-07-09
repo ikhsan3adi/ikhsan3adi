@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
+[![Ceasefire now](https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Ceasefire_Now-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge)](https://techforpalestine.org/learn-more)
+
 > [!IMPORTANT]
 >
 > I'm a passionate Mobile and Web Developer from Indonesia🇮🇩. I'm currently a student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
