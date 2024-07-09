@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://techforpalestine.org/learn-more" align="center">
-    <img height='25em' src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Ceasefire_Now-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge" alt="Ceasefire now" title="Ceasefire now" />
+    <img height='25em' src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Save%20Palestine!-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge" alt="Save Palestine" title="Save Palestine" />
   </a>
 </p>
 
@@ -88,6 +88,9 @@
 <a href="https://livewire.laravel.com/">
   <img alt="livewire" height='25em' src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" />
 </a>
+<a href="https://alpinejs.dev/">
+  <img alt="alpinejs" height='25em' src="https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0" />
+</a>
 
 #### Mobile
 
@@ -133,34 +136,39 @@
 
 #### Other
 
-<a href="https://code.visualstudio.com/">
-  <img alt="vscode" height='25em' src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+<!-- <a href="https://brave.com/">
+  <img alt="vscodium" height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
+</a> -->
+<a href="https://vscodium.com/">
+  <img alt="vscodium" height='25em' src="https://img.shields.io/badge/VSCodium-0078D4?style=for-the-badge&logo=vscodium&logoColor=white" />
 </a>
-<a href="https://www.postman.com/">
+<!-- <a href="https://www.postman.com/">
   <img alt="postman" height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
-</a>
-<!-- <a href="https://jestjs.io/">
-  <img alt="jest" height='25em' src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
-</a>
-<a href="https://eslint.org/">
-  <img alt="eslint" height='25em' src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />
 </a> -->
 <a href="https://swagger.io/">
   <img alt="swagger" height='25em' src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
 </a>
-
+<a href="https://www.openapis.org/">
+  <img alt="openapi" height='25em' src="https://img.shields.io/badge/open_api-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
+</a>
+<!-- <a href="https://yaml.org/">
+  <img alt="yaml" height='25em' src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515" />
+</a> -->
 <a href="https://git-scm.com/">
   <img alt="git" height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
 </a>
 <a href="https://ubuntu.com/">
   <img alt="ubuntu" height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </a>
-<a href="https://aws.amazon.com/">
+<!-- <a href="https://aws.amazon.com/">
   <img height='25em' src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon&logoColor=white" alt="aws" />
-</a>
+</a> -->
 <a href="https://github.com/">
   <img height='25em' src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="github actions" />
 </a>
+<!-- <a href="https://www.libreoffice.org/">
+  <img alt="libreoffice" height='25em' src="https://img.shields.io/badge/LibreOffice-%2318A303?style=for-the-badge&logo=LibreOffice&logoColor=white" />
+</a> -->
 <!-- <a href="https://figma.com/">
   <img height='25em' src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="figma" />
 </a> -->
