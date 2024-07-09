@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
-[![Ceasefire now](https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Ceasefire_Now-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge)](https://techforpalestine.org/learn-more)
+<p align="center">
+  <a href="https://techforpalestine.org/learn-more" align="center">
+    <img height='25em' src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Ceasefire_Now-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge" alt="Ceasefire now" title="Ceasefire now" />
+  </a>
+</p>
 
 > [!IMPORTANT]
 >
