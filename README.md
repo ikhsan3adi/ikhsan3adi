@@ -20,7 +20,7 @@
 > - 📚 Student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
->   - Laravel + Livewire
+>   - Laravel + Livewire (TALL Stack)
 >   - Flutter
 <!--  -->
 
