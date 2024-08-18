@@ -20,9 +20,9 @@
 > - 📚 Informatics engineering student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
->   - Golang basic
 >   - Laravel + Livewire (TALL Stack)
 >   - Flutter
+>   - C
 <!--  -->
 
 > [!TIP]
