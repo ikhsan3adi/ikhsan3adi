@@ -21,8 +21,7 @@
 >
 > - 🌱 Currently Learning:
 >   - Laravel + Livewire (TALL Stack)
->   - Flutter
->   - C
+>   - C/C++
 <!--  -->
 
 > [!TIP]
