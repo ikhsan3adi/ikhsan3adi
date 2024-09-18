@@ -8,7 +8,7 @@
 
 > [!IMPORTANT]
 >
-> I'm a passionate Mobile and Web Developer from Indonesia🇮🇩. I'm currently an informatics engineering student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
+> I'm a passionate Mobile and Web Developer from Indonesia 🇮🇩. I'm currently an informatics engineering student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
 <!--  -->
 
 > [!NOTE]
@@ -20,8 +20,9 @@
 > - 📚 Informatics engineering student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
->   - Laravel + Livewire (TALL Stack)
+>   - Flutter
 >   - C/C++
+>   - Laravel + Livewire (TALL Stack)
 <!--  -->
 
 > [!TIP]
