@@ -8,7 +8,7 @@
 
 > [!IMPORTANT]
 >
-> I'm a passionate Mobile and Web Developer from Indonesia 🇮🇩. I'm currently an informatics engineering student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I specialize in both backend and mobile development, seamlessly blending logic with design to build robust applications. 🌟
+> I'm currently an informatics engineering student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I interested in both backend and mobile development. 🌟
 <!--  -->
 
 > [!NOTE]
@@ -53,6 +53,9 @@
 > </a> -->
 > <a href="https://wa.me/62895338593923">
 > <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
+> </a>
+> <a href="https://www.codewars.com/">
+> <img height='25em' src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey" alt="codewars" title="codewars" />
 > </a>
 > </p>
 
@@ -101,11 +104,14 @@
 
 #### Back-end
 
-<a href="https://nestjs.com/">
-  <img alt="nestjs" height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
-</a>
 <a href="https://nodejs.org/">
   <img alt="nodejs" height='25em' src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</a>
+<a href="https://bun.sh/">
+  <img alt="bun" height='25em' src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" />
+</a>
+<a href="https://nestjs.com/">
+  <img alt="nestjs" height='25em' src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
 </a>
 <a href="https://laravel.com">
   <img alt="laravel" height='25em' src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
@@ -138,7 +144,7 @@
 #### Other
 
 <!-- <a href="https://brave.com/">
-  <img alt="vscodium" height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
+  <img alt="brave" height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
 </a> -->
 <a href="https://vscodium.com/">
   <img alt="vscodium" height='25em' src="https://img.shields.io/badge/VSCodium-0078D4?style=for-the-badge&logo=vscodium&logoColor=white" />
