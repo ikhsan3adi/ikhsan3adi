@@ -20,9 +20,8 @@
 > - 📚 Informatics engineering student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
->   - Flutter
 >   - C/C++
->   - Laravel + Livewire (TALL Stack)
+>   - Data Structure & Algorithms
 <!--  -->
 
 > [!TIP]
