@@ -20,8 +20,9 @@
 > - 📚 Informatics engineering student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
->   - C/C++
 >   - Data Structure & Algorithms
+>   - C/C++
+>   - Rust
 <!--  -->
 
 > [!TIP]
