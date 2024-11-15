@@ -206,7 +206,7 @@
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
       <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=cmake%2Cobjective-c&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
+        srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ikhsan3adi&theme=cobalt&hide=cmake%2Cobjective-c%2Cswift&langs_count=12&size_weight=0.75&count_weight=0.25&layout=compact&exclude_repo=kotlin-pets-app"
         media="(prefers-color-scheme: dark)"
       />
     <img align="center"
