@@ -22,7 +22,6 @@
 > - 🌱 Currently Learning:
 >   - Data Structure & Algorithms
 >   - C/C++
->   - Rust
 <!--  -->
 
 > [!TIP]
