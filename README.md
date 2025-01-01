@@ -8,7 +8,7 @@
 
 > [!IMPORTANT]
 >
-> I'm currently an informatics engineering student at [Bandung State Polytechnic](https://www.polban.ac.id/) and I love for crafting efficient and beautiful digital experiences. I interested in both backend and mobile development. 🌟
+> I'm currently an informatics engineering student and I love for crafting efficient and beautiful digital experiences. I interested in both backend and mobile development. 🌟
 <!--  -->
 
 > [!NOTE]
@@ -16,8 +16,6 @@
 > - ✨ Creating bugs since 2021
 >
 > - 🚀 Building open-source projects
->
-> - 📚 Informatics engineering student at _[Politeknik Negeri Bandung](https://www.polban.ac.id/)_
 >
 > - 🌱 Currently Learning:
 >   - Data Structure & Algorithms
