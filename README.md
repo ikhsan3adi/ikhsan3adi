@@ -51,9 +51,6 @@
 > <!-- <a href="https://wa.me/62895338593923">
 > <img height='25em' src="https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" title="whatsapp" />
 > </a> -->
-> <a href="https://www.codewars.com/">
-> <img height='25em' src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey" alt="codewars" title="codewars" />
-> </a>
 > </p>
 
 ---
