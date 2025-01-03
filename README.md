@@ -20,6 +20,7 @@
 > - 🌱 Currently Learning:
 >   - Data Structure & Algorithms
 >   - C/C++
+>   - Flutter & Android
 <!--  -->
 
 > [!TIP]
