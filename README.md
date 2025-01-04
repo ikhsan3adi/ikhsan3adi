@@ -1,11 +1,5 @@
 <h1 align="center">Hi 👋, My name is Ikhsan</h1>
 
-<p align="center">
-  <a href="https://techforpalestine.org/learn-more" align="center">
-    <img height='25em' src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Save%20Palestine!-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge" alt="Save Palestine" title="Save Palestine" />
-  </a>
-</p>
-
 > [!IMPORTANT]
 >
 > I'm currently an informatics engineering student and I love for crafting efficient and beautiful digital experiences. I interested in both backend and mobile development. 🌟
@@ -227,6 +221,14 @@
       />
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="99%" alt="contribution graph" />
     </picture>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://techforpalestine.org/learn-more" align="center">
+    <img height='25em' src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B8_Save%20Palestine!-techforpalestine.org-000000?labelColor=gray&color=D83838&style=for-the-badge" alt="Save Palestine" title="Save Palestine" />
   </a>
 </p>
 
