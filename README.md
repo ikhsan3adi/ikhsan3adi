@@ -201,7 +201,7 @@
     </picture>
   </a>
 </p>
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
        <source
@@ -211,15 +211,15 @@
       <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%" alt="contribution streak">
     </picture>
   </a>
-</p>
+</p> -->
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
       <source
-        srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=300"
+        srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=250"
         media="(prefers-color-scheme: dark)"
       />
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=300" title="Contribution graph" width="99%" alt="contribution graph" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=vue&radius=16&area=true&height=250" title="Contribution graph" width="99%" alt="contribution graph" />
     </picture>
   </a>
 </p>
