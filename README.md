@@ -87,9 +87,6 @@
 <a href="https://livewire.laravel.com/">
   <img alt="livewire" height='25em' src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" />
 </a>
-<a href="https://alpinejs.dev/">
-  <img alt="alpinejs" height='25em' src="https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0" />
-</a>
 
 #### Mobile
 
@@ -123,42 +120,42 @@
 <a href="https://www.postgresql.org/">
   <img alt="postgresql" height='25em' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
 </a>
-<a href="https://www.prisma.io/">
+<!-- <a href="https://www.prisma.io/">
   <img alt="prisma" height='25em' src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
-</a>
+</a> -->
 <a href="https://redis.io/">
   <img alt="redis" height='25em' src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
 </a>
-<a href="https://www.rabbitmq.com/">
+<!-- <a href="https://www.rabbitmq.com/">
   <img alt="rabbitmq" height='25em' src="https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
-</a>
-<a href="https://jwt.io">
+</a> -->
+<!-- <a href="https://jwt.io">
   <img alt="jwt" height='25em' src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" />
-</a>
+</a> -->
 
 #### Other
 
 <!-- <a href="https://brave.com/">
   <img alt="brave" height='25em' src="https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white" />
 </a> -->
-<a href="https://vscodium.com/">
+<!-- <a href="https://vscodium.com/">
   <img alt="vscodium" height='25em' src="https://img.shields.io/badge/VSCodium-0078D4?style=for-the-badge&logo=vscodium&logoColor=white" />
-</a>
+</a> -->
 <!-- <a href="https://www.postman.com/">
   <img alt="postman" height='25em' src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
 </a> -->
 <a href="https://swagger.io/">
   <img alt="swagger" height='25em' src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
 </a>
-<a href="https://www.openapis.org/">
+<!-- <a href="https://www.openapis.org/">
   <img alt="openapi" height='25em' src="https://img.shields.io/badge/open_api-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
-</a>
+</a> -->
 <!-- <a href="https://yaml.org/">
   <img alt="yaml" height='25em' src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515" />
 </a> -->
-<a href="https://git-scm.com/">
+<!-- <a href="https://git-scm.com/">
   <img alt="git" height='25em' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-</a>
+</a> -->
 <a href="https://ubuntu.com/">
   <img alt="ubuntu" height='25em' src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </a>
