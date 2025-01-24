@@ -201,7 +201,7 @@
     </picture>
   </a>
 </p>
-<!-- <p align="center">
+<p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
        <source
@@ -211,7 +211,7 @@
       <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%" alt="contribution streak">
     </picture>
   </a>
-</p> -->
+</p>
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
