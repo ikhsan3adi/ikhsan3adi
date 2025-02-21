@@ -28,7 +28,7 @@
 > <a href="https://x.com/ikhsan3adi">
 > <img height='25em' src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" title="@ikhsan3adi" />
 > </a>
-> <a href="https://www.linkedin.com/in/ikhsan-satriadi">
+> <a href="https://www.linkedin.com/in/ikhsan3adi">
 > <img height='25em' src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="Ikhsan Satriadi" />
 > </a>
 > <a href="https://t.me/ikhsan3adi">
