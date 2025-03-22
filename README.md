@@ -11,7 +11,6 @@ I'm currently an informatics engineering student.
 > - 🌱 Currently Learning:
 >   - Data Structure & Algorithms
 >   - C/C++
->   - Flutter
 <!--  -->
 
 > [!TIP]
