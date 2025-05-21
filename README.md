@@ -11,6 +11,8 @@ void main()
       "Data Structure & Algorithms",
       "C/C++",
   };
+
+  static const char *important = "I use Arch btw.";
 }
 ```
 <!--  -->
