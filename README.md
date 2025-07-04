@@ -10,6 +10,7 @@ void main()
   char *currently_learning[] = {
       "Data Structure & Algorithms",
       "C/C++",
+      "Competitive Programming",
       "Server & Networking",
   };
 
