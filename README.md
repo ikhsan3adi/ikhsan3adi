@@ -1,6 +1,6 @@
-<h1 align="center">
+<!-- <h1 align="center">
   <code>satriadi.c</code>
-</h1>
+</h1> -->
 
 ```c
 void main()
@@ -11,7 +11,8 @@ void main()
       "Data Structure & Algorithms",
       "C/C++",
       "Competitive Programming",
-      "Server & Networking",
+      "Database",
+      "Software Engineering"
   };
 
   static const char *important = "I use Arch btw.";
