@@ -204,17 +204,6 @@
 <p align="center">
   <a href="https://github.com/ikhsan3adi?tab=repositories">
     <picture>
-       <source
-        srcset="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=material-palenight&card_width=950&date_format=d M Y"
-        media="(prefers-color-scheme: dark)"
-      />
-      <img src="https://streak-stats.demolab.com/?user=ikhsan3adi&theme=vue&card_width=950&date_format=d M Y" title="Contribution streak" width="99%" alt="contribution streak">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/ikhsan3adi?tab=repositories">
-    <picture>
       <source
         srcset="https://github-readme-activity-graph.vercel.app/graph?username=ikhsan3adi&theme=material-palenight&radius=16&area=true&height=250"
         media="(prefers-color-scheme: dark)"
