@@ -12,7 +12,8 @@ void main()
       "C/C++",
       "Competitive Programming",
       "Database",
-      "Software Engineering"
+      "Software Engineering",
+      "Computer Graphics"
   };
 
   static const char *important = "I use Arch btw.";
