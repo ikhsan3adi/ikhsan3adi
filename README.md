@@ -9,10 +9,9 @@ void main()
 
   char *currently_learning[] = {
       "Data Structure & Algorithms",
-      "C/C++",
-      "Competitive Programming",
       "Database",
       "Software Engineering",
+      "Web & Back-end Development",
       "Computer Graphics"
   };
 
