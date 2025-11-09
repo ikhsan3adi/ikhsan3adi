@@ -8,11 +8,12 @@ void main()
   char *info = "I'm currently an informatics engineering student.";
 
   char *currently_learning[] = {
-      "Data Structure & Algorithms",
+      "Web & Back-end Development",
       "Database",
       "Software Engineering",
-      "Web & Back-end Development",
-      "Computer Graphics"
+      "OOP",
+      "Computer Graphics",
+      "Data Structure & Algorithms"
   };
 
   static const char *important = "I use Arch btw.";
