@@ -8,7 +8,9 @@ void main()
   char *info = "I'm currently an informatics engineering student.";
 
   char *currently_learning[] = {
-      "Guess it!"
+      "Python",
+      "Image Processing",
+      "Backend Dev"
   };
 
   static const char *important = "I use Arch btw.";
