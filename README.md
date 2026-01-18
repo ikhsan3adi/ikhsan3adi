@@ -10,7 +10,8 @@ void main()
   char *currently_learning[] = {
       "Python",
       "Image Processing",
-      "Backend Dev"
+      "Backend Dev",
+      "Doom Scrolling"
   };
 
   static const char *important = "I use Arch btw.";
