@@ -3,13 +3,14 @@
 - $X = \lbrace i,k,h,s,a,n \rbrace$
 - $Y = \lbrace s,a,t,r,i,a,d,i \rbrace$
 
-> Don't be confused
+> ~~Don't be confused~~
 
 ---
 
-#### What I'm working on
+#### What I'm currently learning & working on
 
 ```mermaid
+%%{ init : { "theme" : "default" }}%%
 mindmap
   root((Informatics<br>Student))
     
