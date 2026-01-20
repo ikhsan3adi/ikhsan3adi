@@ -1,4 +1,4 @@
-# $Hello, \ My \ Name \ is \ \displaystyle \prod_{i=1}^{6}X_i\prod_{j=1}^{8}Y_j$
+# $\texttt{Hello}, \ My \ Name \ is \ \displaystyle \sum_{i=1}^{1} \prod_{i=1}^{6}X_i \prod_{j=1}^{8}Y_j$
 
 - $X = \lbrace i,k,h,s,a,n \rbrace$
 - $Y = \lbrace s,a,t,r,i,a,d,i \rbrace$
