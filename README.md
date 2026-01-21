@@ -1,9 +1,16 @@
-# $\texttt{Hello}, \ My \ Name \ is \ \displaystyle \sum_{i=1}^{1} \prod_{i=1}^{6}X_i \prod_{j=1}^{8}Y_j$
+# $\texttt{Hello, My Name is} \ \displaystyle \sum_{i=1}^{1} \prod_{j=1}^{6}\vec{X_j} \prod_{k=1}^{8}\vec{Y_k}$
 
-- $X = \lbrace i,k,h,s,a,n \rbrace$
-- $Y = \lbrace s,a,t,r,i,a,d,i \rbrace$
+$$
+\vec{X} = (i, k, h, s, a, n), \quad \vec{Y} = (s, a, t, r, i, a, d, i)
+$$
 
-> ~~Don't be confused~~
+$$
+\therefore \ \texttt{Hello, My Name is} \ ikhsan \cdot satriadi
+$$
+
+> [!NOTE]
+>
+> This formula did not pass the lecturer's validation test, but it ~~failed~~ **passed the aesthetics test**.
 
 ---
 
