@@ -1,15 +1,29 @@
 ```c
-int main()
+/**
+                 ██▓ ██ ▄█▀ ██░ ██   ██████  ▄▄▄       ███▄    █ █████▓ ▄▄▄      ▓█████▄  ██▓              
+                ▓██▒ ██▄█▒ ▓██░ ██▒▒██    ▒ ▒████▄     ██ ▀█   █ ▀   █▓▒████▄    ▒██▀ ██▌▓██▒              
+                ▒██▒▓███▄░ ▒██▀▀██░░ ▓██▄   ▒██  ▀█▄  ▓██  ▀█ ██▒  ███▒▒██  ▀█▄  ░██   █▌▒██▒              
+                ░██░▓██ █▄ ░▓█ ░██   ▒   ██▒░██▄▄▄▄██ ▓██▒  ▐▌██▒▄  █▓▒░██▄▄▄▄██ ░▓█▄   ▌░██░              
+                ░██░▒██▒ █▄░▓█▒░██▓▒██████▒▒ ▓█   ▓██▒▒██░   ▓██░████▒░▒▓█   ▓██▒░▒████▓ ░██░              
+                ░▓  ▒ ▒▒ ▓▒ ▒ ░░▒░▒▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ░▒ ░░░▒▒   ▓▒█░ ▒▒▓  ▒ ░▓                
+                 ▒ ░░ ░▒ ▒░ ▒ ░▒░ ░░ ░▒  ░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░ ░ ░ ▒   ▒▒ ░ ░ ▒  ▒  ▒ ░              
+                 ▒ ░░ ░░ ░  ░  ░░ ░░  ░  ░    ░   ▒      ░   ░ ░   ░     ░   ▒    ░ ░  ░  ▒ ░              
+                 ░  ░  ░    ░  ░  ░      ░        ░  ░         ░   ░   ░     ░  ░   ░     ░                
+                                                                                  ░                        
+*/
+
+int main(int argc, char *argv[])
 {
-    char *info = "I'm currently an informatics engineering student.";
+    char *info = "I'm currently an informatics engineering (or computer science) student.";
 
     char *currently_learning[] = {
+        "Software Engineering",
+        "Android / Flutter Dev",
+        "Image Processing",
         "Backend Dev",
-        "Android Dev",
         "System Design",
         "Databases",
         "Python",
-        "Image Processing",
     };
 
     static const char *important = "I use Arch btw.";
