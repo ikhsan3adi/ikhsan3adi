@@ -21,8 +21,6 @@ int main(int argc, char *argv[])
         "Android / Flutter Dev",
         "Image Processing",
         "Backend Dev",
-        "System Design",
-        "Databases",
         "Python",
     };
 
