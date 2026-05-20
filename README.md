@@ -1,5 +1,5 @@
 <h1 align="center">
-$Ikhsan \ Satriadi$
+$\huge{\diamonds \ \mathcal{I}\kappa h \varsigma\alpha\eta \ \mathcal{S}\alpha\tau r i \alpha \delta \hat{\iota} \ \hearts}$
 </h1>
 
 ```cpp
@@ -22,6 +22,11 @@ int main(int argc, char *argv[])
     static const string important = "I use Arch btw.";
 }
 ```
+
+---
+
+| ![ikhsan3adi github stats](./profile/stats.svg) | ![ikhsan3adi top languages](./profile/top-langs.svg) |
+| :---------------------------------------------: | :--------------------------------------------------: |
 
 ---
 
