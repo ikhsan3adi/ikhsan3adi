@@ -1,5 +1,5 @@
 <h1 align="center">
-$\huge{\diamonds \ \mathcal{I}\kappa h \varsigma\alpha\eta \ \mathcal{S}\alpha\tau r i \alpha \delta \hat{\iota} \ \hearts}$
+$\huge{I\kappa h \varsigma\alpha\eta \ S\alpha\tau r i \alpha \delta \iota}$
 </h1>
 
 ```cpp
