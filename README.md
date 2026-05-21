@@ -23,13 +23,17 @@ int main(int argc, char *argv[])
 }
 ```
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./profiles/simple-stats-dark.svg"
-  />
-  <img
-    src="./profiles/simple-stats.svg"
-    alt="GitHub Stats"
-  />
-</picture>
+<p align="center">
+  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="./profiles/simple-stats-dark.svg"
+      />
+      <img
+        src="./profiles/simple-stats.svg"
+        alt="GitHub Stats"
+      />
+    </picture>
+  </a>
+</p>
