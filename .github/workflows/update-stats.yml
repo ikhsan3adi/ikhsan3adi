@@ -1,0 +1,46 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build Tailwind CSS
+        run: bun run build:css
+
+      - name: Install Puppeteer browser
+        run: bunx puppeteer browsers install chrome
+
+      - name: Generate SVGs
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun run start
+
+      - name: Commit & push SVG output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profiles/simple-stats.svg profiles/simple-stats-dark.svg
+          git diff --staged --quiet || \
+            git commit -m "chore: update github stats [skip ci]"
+          git push

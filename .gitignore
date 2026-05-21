@@ -1,0 +1,9 @@
+node_modules/
+src/output.css
+.env
+
+profiles/*.html
+
+# Keep generated SVGs tracked
+!profiles/
+!profiles/*.svg

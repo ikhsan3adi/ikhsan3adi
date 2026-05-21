@@ -22,3 +22,14 @@ int main(int argc, char *argv[])
     static const string important = "I use Arch btw.";
 }
 ```
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profiles/simple-stats-dark.svg"
+  />
+  <img
+    src="./profiles/simple-stats.svg"
+    alt="GitHub Stats"
+  />
+</picture>
