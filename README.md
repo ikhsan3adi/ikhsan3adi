@@ -1,6 +1,6 @@
-<h1 align="center">
+<!-- <h1 align="center">
 $\huge{\mathbb{IKHSAN \ SATRIADI}}$
-</h1>
+</h1> -->
 
 ```cpp
 #include <bits/stdc++.h>
@@ -8,6 +8,10 @@ using namespace std;
 
 int main()
 {
+    string full_name = "Ikhsan Satriadi";
+
+    string main_handle = "ikhsan3adi";
+
     string info = "I'm currently an informatics engineering (or computer science) student.";
 
     vector<string> currently_learning = {
@@ -22,7 +26,7 @@ int main()
         {"Favorite Animal", {"Cat"}},
         {"Operating System", {"Arch Linux"}},
         {"Favorite App", {"Web Browser", "Terminal"}},
-        {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop", "Pra.. 🔫"}}, // dor!
+        {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop", "Indonesia Current Regime"}},
         {"Girlfriend", {}},
     };
 
@@ -33,7 +37,7 @@ int main()
 <!-- awas disiram air keras -->
 
 <p align="center">
-  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="My GitHub Stats, click to see them more">
+  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="Not Important, Click to win a prize">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
