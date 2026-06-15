@@ -2,6 +2,34 @@
 $\huge{\mathbb{IKHSAN \ SATRIADI}}$
 </h1> -->
 
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profiles/wordmark-dark.svg"
+    />
+    <img
+      src="./profiles/wordmark.svg"
+      alt="Wordmark"
+    />
+  </picture>
+  <br/>
+  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="Not Important, Click to win a prize">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="./profiles/github-stats-dark.svg"
+      />
+      <img
+        src="./profiles/github-stats.svg"
+        alt="GitHub Stats"
+      />
+    </picture>
+  </a>
+</p>
+
+---
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,7 +54,7 @@ int main()
         {"Favorite Animal", {"Cat"}},
         {"Operating System", {"Arch Linux"}},
         {"Favorite App", {"Web Browser", "Terminal"}},
-        {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop", "Indonesia Current Regime"}},
+        {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop"}},
         {"Girlfriend", {}},
     };
 
@@ -35,18 +63,3 @@ int main()
 ```
 
 <!-- awas disiram air keras -->
-
-<p align="center">
-  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="Not Important, Click to win a prize">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./profiles/simple-stats-dark.svg"
-      />
-      <img
-        src="./profiles/simple-stats.svg"
-        alt="GitHub Stats"
-      />
-    </picture>
-  </a>
-</p>

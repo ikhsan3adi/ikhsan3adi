@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/**/*.html", "./profiles/**/*.html"],
-  darkMode: "class",
+  content: ['./src/**/*.{html,ts}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        "cascadia-mono": ['"Cascadia Mono"', "mono"],
-        "space-grotesk": ['"Space Grotesk"', "sans-serif"],
+        'cascadia-mono': ['"Cascadia Mono"', 'mono'],
+        'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
+        mechsuit: ['"Mechsuit"', 'sans-serif']
       },
       colors: {
         text: '#280609',
@@ -20,7 +21,7 @@ module.exports = {
         'custom-3': '#de86ea',
         'custom-4': '#8fb3ff'
       }
-    },
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};

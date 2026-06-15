@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="{{#if dark}}dark{{/if}}">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      <!-- INLINE_CSS -->
+    </style>
+  </head>
+
+  <body class="m-0 p-0 bg-transparent box-border">
+    <div
+      class="flex flex-col justify-between p-4 box-border"
+      style="width:{{cardWidth}}px;{{#if cardHeight}}height:{{cardHeight}}px{{/if}}"
+    >
+      <h2
+        class="dark:text-white text-center tracking-wide"
+        title="{{username}}"
+      >
+        My Github Stats
+      </h2>
+
+      <div class="grid grid-cols-2 gap-3 px-16 py-4">
+        <div
+          class="border-4 border-slate-900 dark:border-slate-700 p-3 bg-amber-200 dark:bg-amber-400 flex items-center gap-3"
+        >
+          <div
+            class="w-8 h-8 text-black bg-slate-200 border-2 border-slate-900 dark:border-slate-700 flex items-center justify-center flex-shrink-0"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="{{icons.star.viewBox}}"
+              fill="currentColor"
+              style-disabled="animation:scale-up-center 1s cubic-bezier(0.4,0,0.2,1) both;animation-delay:0s"
+            >
+              <path d="{{icons.star.path}}" />
+            </svg>
+          </div>
+          <div>
+            <div class="text-text text-xl font-bold">{{totalStars}}</div>
+            <div class="text-text text-sm font-medium leading-tight">Stars</div>
+          </div>
+        </div>
+
+        <div
+          class="border-4 border-slate-900 dark:border-slate-700 p-3 bg-sky-300 dark:bg-sky-400 flex items-center gap-3"
+        >
+          <div
+            class="w-8 h-8 text-black bg-slate-200 border-2 border-slate-900 dark:border-slate-700 flex items-center justify-center flex-shrink-0"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="{{icons.commit.viewBox}}"
+              fill="currentColor"
+              style-disabled="animation:scale-up-center 1s cubic-bezier(0.4,0,0.2,1) both;animation-delay:0.15s"
+            >
+              <path d="{{icons.commit.path}}" />
+            </svg>
+          </div>
+          <div>
+            <div class="text-text text-xl font-bold">{{totalCommits}}</div>
+            <div class="text-text text-sm font-medium leading-tight">
+              Commits
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-4 border-slate-900 dark:border-slate-700 p-3 bg-emerald-300 dark:bg-emerald-400 flex items-center gap-3"
+        >
+          <div
+            class="w-8 h-8 text-black bg-slate-200 border-2 border-slate-900 dark:border-slate-700 flex items-center justify-center flex-shrink-0"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="{{icons.fork.viewBox}}"
+              fill="currentColor"
+              style-disabled="animation:scale-up-center 1s cubic-bezier(0.4,0,0.2,1) both;animation-delay:0.3s"
+            >
+              <path d="{{icons.fork.path}}" />
+            </svg>
+          </div>
+          <div>
+            <div class="text-text text-xl font-bold">{{totalForks}}</div>
+            <div class="text-text text-sm font-medium leading-tight">Forks</div>
+          </div>
+        </div>
+
+        <div
+          class="border-4 border-slate-900 dark:border-slate-700 p-3 bg-purple-300 dark:bg-purple-400 flex items-center gap-3"
+        >
+          <div
+            class="w-8 h-8 text-black bg-slate-200 border-2 border-slate-900 dark:border-slate-700 flex items-center justify-center flex-shrink-0"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="{{icons.pr.viewBox}}"
+              fill="currentColor"
+              style-disabled="animation:scale-up-center 1s cubic-bezier(0.4,0,0.2,1) both;animation-delay:0.45s"
+            >
+              <path d="{{icons.pr.path}}" />
+            </svg>
+          </div>
+          <div>
+            <div class="text-text text-xl font-bold">{{totalPRs}}</div>
+            <div class="text-text text-sm font-medium leading-tight">
+              Pull Requests
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="text-[6pt] text-black dark:text-white font-medium text-center"
+      >
+        Updated {{fetchedAt}}
+      </div>
+    </div>
+  </body>
+</html>

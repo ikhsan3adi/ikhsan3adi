@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="{{#if dark}}dark{{/if}}" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordmark</title>
+    <style>
+      <!-- INLINE_CSS -->
+    </style>
+  </head>
+  <body class="dark:bg-slate-800">
+    <div class="h-min flex flex-col items-center justify-center">
+      {{#if dark}}{{{wordmarkSvgDark}}}{{else}}{{{wordmarkSvgLight}}}{{/if}}
+
+      <div class="w-full flex justify-center">
+        <p
+          class="w-full text-sm font-space-grotesk md:text-base text-text dark:text-white max-w-sm text-center leading-relaxed tracking-wide italic"
+        >
+          {{sentence}}
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

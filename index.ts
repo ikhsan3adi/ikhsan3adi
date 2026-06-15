@@ -1,35 +1,58 @@
-import { fetchStats } from "./src/fetcher"
-import { renderTemplate } from "./src/renderer"
-import { exportToSVG } from "./src/exporter"
-import { mkdirSync } from "fs"
+import { mkdirSync } from 'fs';
+import { HttpService } from './src/core/http-service';
+import { Renderer } from './src/core/renderer';
+import { exportToSVG } from './src/core/exporter';
+import { createCard, listCards } from './src/cards';
 
 async function main() {
-  const username = process.env.GITHUB_USERNAME
-  const token = process.env.GITHUB_TOKEN
+  const cardIds = (process.env.CARD_IDS || 'github-stats')
+    .split(',')
+    .map((s) => s.trim());
+  const username = process.env.GITHUB_USERNAME;
+  const token = process.env.GITHUB_TOKEN;
 
-  if (!username || !token) {
-    console.error("Missing GITHUB_USERNAME or GITHUB_TOKEN")
-    process.exit(1)
+  if (cardIds.includes('github-stats') && (!username || !token)) {
+    console.error(
+      'Missing GITHUB_USERNAME or GITHUB_TOKEN for github-stats card'
+    );
+    process.exit(1);
   }
 
-  mkdirSync("./profiles", { recursive: true })
+  mkdirSync('./profiles', { recursive: true });
 
-  console.log(`Fetching stats for ${username}...`)
-  const stats = await fetchStats(username, token)
-  console.log("Stats:", stats)
+  const http = new HttpService(token);
+  const renderer = new Renderer();
 
-  console.log("Rendering light mode...")
-  const lightHtml = renderTemplate(stats, false)
-  await exportToSVG(lightHtml, "./profiles/simple-stats.svg")
+  for (const cardId of cardIds) {
+    if (!listCards().includes(cardId)) {
+      console.error(
+        `Card not found: ${cardId}. Available: ${listCards().join(', ')}`
+      );
+      process.exit(1);
+    }
 
-  console.log("Rendering dark mode...")
-  const darkHtml = renderTemplate(stats, true)
-  await exportToSVG(darkHtml, "./profiles/simple-stats-dark.svg")
+    const card = createCard(cardId, { username });
+    console.log(`[${cardId}] Fetching data...`);
+    const data = await card.fetchData(http);
+    console.log(`[${cardId}] Data:`, data);
 
-  console.log("Done. SVGs saved to ./profiles/")
+    console.log(`[${cardId}] Rendering light mode...`);
+    const lightHtml = await renderer.renderCard(card, data, { dark: false });
+    const lightPath = `./profiles/${cardId}.svg`;
+    await exportToSVG(lightHtml, lightPath);
+    console.log(`  -> ${lightPath}`);
+
+    console.log(`[${cardId}] Rendering dark mode...`);
+    const darkHtml = await renderer.renderCard(card, data, { dark: true });
+    const darkPath = `./profiles/${cardId}-dark.svg`;
+    await exportToSVG(darkHtml, darkPath);
+    console.log(`  -> ${darkPath}`);
+  }
+
+  console.log('Done.');
 }
 
 main().catch((err) => {
-  console.error("Fatal error:", err)
-  process.exit(1)
-})
+  console.error('Fatal error:', err);
+  process.exit(1);
+});
