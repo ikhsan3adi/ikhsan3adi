@@ -1,8 +1,4 @@
-<!-- <h1 align="center">
-$\huge{\mathbb{IKHSAN \ SATRIADI}}$
-</h1> -->
-
-<p align="center">
+<h1 align="center" title="ikhsan3adi">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -10,11 +6,15 @@ $\huge{\mathbb{IKHSAN \ SATRIADI}}$
     />
     <img
       src="./profiles/wordmark.svg"
-      alt="Wordmark"
+      alt="ikhsan3adi"
     />
   </picture>
-  <br/>
-  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="Not Important, Click to win a prize">
+</h1>
+
+<!-- keren bgt jir -->
+
+<div align="center">
+  <a href="https://ikhsan3adi.github.io/#portfolio" target="_blank" title="Inaccurate commit count">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -26,7 +26,7 @@ $\huge{\mathbb{IKHSAN \ SATRIADI}}$
       />
     </picture>
   </a>
-</p>
+</div>
 
 ---
 
@@ -49,6 +49,7 @@ int main()
         "Backend Dev",
     };
 
+    // Don't take it seriously
     map<string, set<string>> something_about_me = {
         {"Hobbies", {"Walking", "Cycling", "Write something like this"}},
         {"Favorite Animal", {"Cat"}},
