@@ -41,14 +41,11 @@ export class WordmarkCard implements ICard {
 
   getAssets(): CardAssets {
     return {
-      tailwindInput: readFileSync(
-        resolve(__dirname, '..', '..', '..', 'src/input.css'),
-        'utf-8'
-      ),
+      tailwindInput: readFileSync(resolve(__dirname, 'input.css'), 'utf-8'),
       fonts: [
         {
           pkg: '@fontsource/space-grotesk',
-          files: ['latin-500.css', 'latin-700.css']
+          files: ['latin-500.css']
         }
       ]
     }

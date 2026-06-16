@@ -8,8 +8,11 @@
       <!-- INLINE_CSS -->
     </style>
   </head>
-  <body class="dark:bg-slate-800">
-    <div class="h-min flex flex-col items-center justify-center">
+  <body class="m-0 p-0 bg-transparent box-border">
+    <div
+      class="h-min flex flex-col items-center justify-center"
+      style="width:{{cardWidth}}px;"
+    >
       {{#if dark}}{{{wordmarkSvgDark}}}{{else}}{{{wordmarkSvgLight}}}{{/if}}
 
       <div class="w-full flex justify-center">

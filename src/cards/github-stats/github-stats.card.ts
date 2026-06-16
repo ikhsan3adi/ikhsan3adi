@@ -1,9 +1,9 @@
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
-import type { ICard, CardAssets } from '../card.interface'
 import type { HttpService } from '../../core/http-service'
-import { GitHubStatsFetcher } from './github-stats.fetcher'
+import type { CardAssets, ICard } from '../card.interface'
 import { GITHUB_STATS_CONFIG } from './github-stats.config'
+import { GitHubStatsFetcher } from './github-stats.fetcher'
 
 export class GitHubStatsCard implements ICard {
   readonly id = 'github-stats'
@@ -27,13 +27,13 @@ export class GitHubStatsCard implements ICard {
   getAssets(): CardAssets {
     return {
       tailwindInput: readFileSync(
-        resolve(__dirname, '..', '..', '..', 'src/input.css'),
+        resolve(__dirname, '..', '..', 'input.css'),
         'utf-8'
       ),
       fonts: [
         {
           pkg: '@fontsource/space-grotesk',
-          files: ['latin-500.css', 'latin-700.css']
+          files: ['latin-500.css']
         },
         { pkg: '@fontsource/cascadia-mono', files: ['latin-700.css'] }
       ],

@@ -26,6 +26,23 @@ async function getDomToSvgBundle(): Promise<string> {
   return bundlePromise
 }
 
+function minifySvg(svg: string): string {
+  let s = svg
+  s = s.replace(/^<\?xml[^>]*\?>/, '')
+  const parts = s.split(/(<style>[\s\S]*?<\/style>)/)
+  for (let i = 0; i < parts.length; i++) {
+    if (!parts[i].startsWith('<style>')) {
+      parts[i] = parts[i]
+        .replace(/<!--[\s\S]*?-->/g, '')
+        .replace(/>\s+</g, '><')
+        .replace(/\s{2,}/g, ' ')
+        .replace(/\s+\/>/g, '/>')
+        .trim()
+    }
+  }
+  return parts.join('')
+}
+
 export async function exportToSVG(
   html: string,
   outputPath: string,
@@ -71,7 +88,7 @@ export async function exportToSVG(
       return new XMLSerializer().serializeToString(doc)
     })
 
-    writeFileSync(outputPath, svgContent, 'utf-8')
+    writeFileSync(outputPath, minifySvg(svgContent), 'utf-8')
   } finally {
     await browser.close()
   }

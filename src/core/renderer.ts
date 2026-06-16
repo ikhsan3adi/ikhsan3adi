@@ -42,7 +42,14 @@ export class Renderer {
     if (fontCache.has(key)) return fontCache.get(key)!
     const base = resolve('node_modules', pkg)
     const css = files
-      .map((f) => inlineAssets(readFileSync(resolve(base, f), 'utf-8'), base))
+      .map((f) => {
+        const raw = readFileSync(resolve(base, f), 'utf-8')
+        const stripped = raw.replace(
+          /,\s*url\([^)]+\.woff\)\s*format\('woff'\)/g,
+          ''
+        )
+        return inlineAssets(stripped, base)
+      })
       .join('\n')
     fontCache.set(key, css)
     return css
