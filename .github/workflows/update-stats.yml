@@ -31,7 +31,11 @@ jobs:
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CARD_IDS: github-stats,wordmark
+          CODEBERG_USERNAME: ${{ secrets.CODEBERG_USERNAME }}
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+          GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          CARD_IDS: github-stats,codeberg-stats,gitlab-stats,wordmark
         run: bun run start
 
       - name: Commit & push SVG output

@@ -4,23 +4,48 @@ import { Renderer } from './src/core/renderer';
 import { exportToSVG } from './src/core/exporter';
 import { createCard, listCards } from './src/cards';
 
+function getRequired(name: string): string {
+  const val = process.env[name];
+  if (!val) {
+    console.error(`Missing ${name}`);
+    process.exit(1);
+  }
+  return val;
+}
+
+function getHttp(cardId: string): HttpService {
+  switch (cardId) {
+    case 'github-stats':
+      return new HttpService(process.env.GITHUB_TOKEN);
+    case 'codeberg-stats':
+      return new HttpService(process.env.CODEBERG_TOKEN);
+    case 'gitlab-stats':
+      return new HttpService(process.env.GITLAB_TOKEN);
+    default:
+      return new HttpService();
+  }
+}
+
+function getUsername(cardId: string): string {
+  switch (cardId) {
+    case 'github-stats':
+      return getRequired('GITHUB_USERNAME');
+    case 'codeberg-stats':
+      return getRequired('CODEBERG_USERNAME');
+    case 'gitlab-stats':
+      return getRequired('GITLAB_USERNAME');
+    default:
+      return ''
+  }
+}
+
 async function main() {
   const cardIds = (process.env.CARD_IDS || 'github-stats')
     .split(',')
     .map((s) => s.trim());
-  const username = process.env.GITHUB_USERNAME;
-  const token = process.env.GITHUB_TOKEN;
-
-  if (cardIds.includes('github-stats') && (!username || !token)) {
-    console.error(
-      'Missing GITHUB_USERNAME or GITHUB_TOKEN for github-stats card'
-    );
-    process.exit(1);
-  }
 
   mkdirSync('./profiles', { recursive: true });
 
-  const http = new HttpService(token);
   const renderer = new Renderer();
 
   for (const cardId of cardIds) {
@@ -31,6 +56,8 @@ async function main() {
       process.exit(1);
     }
 
+    const username = getUsername(cardId);
+    const http = getHttp(cardId);
     const card = createCard(cardId, { username });
     console.log(`[${cardId}] Fetching data...`);
     const data = await card.fetchData(http);

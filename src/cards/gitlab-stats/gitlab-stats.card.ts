@@ -2,26 +2,29 @@ import { readFileSync } from 'fs'
 import { resolve } from 'path'
 import type { HttpService } from '../../core/http-service'
 import type { CardAssets, ICard } from '../card.interface'
-import { GITHUB_STATS_CONFIG } from './github-stats.config'
-import { GitHubStatsFetcher } from './github-stats.fetcher'
+import { GITLAB_STATS_CONFIG } from './gitlab-stats.config'
+import { GitLabStatsFetcher } from './gitlab-stats.fetcher'
 
-export class GitHubStatsCard implements ICard {
-  readonly id = 'github-stats'
+export class GitLabStatsCard implements ICard {
+  readonly id = 'gitlab-stats'
 
   constructor(private username: string) {}
 
   async fetchData(http: HttpService): Promise<Record<string, unknown>> {
-    const fetcher = new GitHubStatsFetcher(http, this.username)
+    const fetcher = new GitLabStatsFetcher(http, this.username)
     const data = await fetcher.fetch()
-    return { ...data, platformName: 'Github', prLabel: 'Pull Requests' }
+    return { ...data, platformName: 'GitLab', prLabel: 'Merge Requests' }
   }
 
   getTemplate(): string {
-    return readFileSync(resolve(__dirname, 'stats-template.html'), 'utf-8')
+    return readFileSync(
+      resolve(__dirname, '..', 'github-stats', 'stats-template.html'),
+      'utf-8'
+    )
   }
 
   getConfig(): Record<string, unknown> {
-    return { ...GITHUB_STATS_CONFIG }
+    return { ...GITLAB_STATS_CONFIG }
   }
 
   getAssets(): CardAssets {

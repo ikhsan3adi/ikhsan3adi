@@ -2,26 +2,29 @@ import { readFileSync } from 'fs'
 import { resolve } from 'path'
 import type { HttpService } from '../../core/http-service'
 import type { CardAssets, ICard } from '../card.interface'
-import { GITHUB_STATS_CONFIG } from './github-stats.config'
-import { GitHubStatsFetcher } from './github-stats.fetcher'
+import { CODEBERG_STATS_CONFIG } from './codeberg-stats.config'
+import { CodebergStatsFetcher } from './codeberg-stats.fetcher'
 
-export class GitHubStatsCard implements ICard {
-  readonly id = 'github-stats'
+export class CodebergStatsCard implements ICard {
+  readonly id = 'codeberg-stats'
 
   constructor(private username: string) {}
 
   async fetchData(http: HttpService): Promise<Record<string, unknown>> {
-    const fetcher = new GitHubStatsFetcher(http, this.username)
+    const fetcher = new CodebergStatsFetcher(http, this.username)
     const data = await fetcher.fetch()
-    return { ...data, platformName: 'Github', prLabel: 'Pull Requests' }
+    return { ...data, platformName: 'Codeberg', prLabel: 'Pull Requests' }
   }
 
   getTemplate(): string {
-    return readFileSync(resolve(__dirname, 'stats-template.html'), 'utf-8')
+    return readFileSync(
+      resolve(__dirname, '..', 'github-stats', 'stats-template.html'),
+      'utf-8'
+    )
   }
 
   getConfig(): Record<string, unknown> {
-    return { ...GITHUB_STATS_CONFIG }
+    return { ...CODEBERG_STATS_CONFIG }
   }
 
   getAssets(): CardAssets {
