@@ -30,10 +30,10 @@ function getLlmService(cardId: string, http?: HttpService): LLMService {
   const selected = openRouter
 
   return new LLMService(
-    http ?? getHttp(cardId),
     selected.baseUrl,
-    selected.apiKey,
-    selected.model
+    selected.apiKey ?? '',
+    selected.model,
+    http,
   )
 }
 

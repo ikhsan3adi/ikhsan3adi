@@ -7,26 +7,30 @@ import {
 
 export class LLMService {
   constructor(
-    http?: HttpService,
-    baseUrl?: string,
-    apiKey?: string,
-    model?: string
+    baseUrl: string,
+    apiKey: string,
+    model: string,
+    http?: HttpService
   ) {
-    this.baseUrl = baseUrl ?? 'https://opencode.ai/zen/v1'
-    this.apiKey = apiKey ?? process.env.OPENAI_API_KEY!
+    this.baseUrl = baseUrl
+    this.apiKey = apiKey
     this.model = model ?? 'big-pickle'
     this.http = http ?? new HttpService(this.apiKey)
   }
 
   private http: HttpService
-  private baseUrl: string
-  private apiKey: string
+  private baseUrl?: string
+  private apiKey?: string
   private model: string
 
   async chatCompletion(
     prompt: string,
     response_format_type: ChatCompletionRequestFormatType = 'text'
   ): Promise<ChatCompletionResponse> {
+    if (!this.apiKey) {
+      throw new Error('API key is not set')
+    }
+
     const body: ChatCompletionRequest = {
       model: this.model,
       messages: [
