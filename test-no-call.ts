@@ -2,7 +2,6 @@ import { mkdirSync, writeFileSync } from 'fs';
 import { exportToSVG } from './src/core/exporter';
 import { Renderer } from './src/core/renderer';
 import { createCard, listCards } from './src/cards';
-import { HttpService } from './src/core/http-service';
 
 const mockData: Record<string, Record<string, unknown>> = {
   'github-stats': {
@@ -11,6 +10,28 @@ const mockData: Record<string, Record<string, unknown>> = {
     totalCommits: 13650,
     totalForks: 295,
     totalPRs: 208,
+    platformName: 'Github',
+    prLabel: 'Pull Requests',
+    fetchedAt: '21 May 2026 at 09.21 WIB'
+  },
+  'codeberg-stats': {
+    username: 'ikhsan3adi',
+    totalStars: 42,
+    totalCommits: 890,
+    totalForks: 12,
+    totalPRs: 25,
+    platformName: 'Codeberg',
+    prLabel: 'Pull Requests',
+    fetchedAt: '21 May 2026 at 09.21 WIB'
+  },
+  'gitlab-stats': {
+    username: 'ikhsan3adi',
+    totalStars: 156,
+    totalCommits: 3420,
+    totalForks: 48,
+    totalPRs: 73,
+    platformName: 'GitLab',
+    prLabel: 'Merge Requests',
     fetchedAt: '21 May 2026 at 09.21 WIB'
   }
 };
@@ -23,7 +44,6 @@ async function main() {
   mkdirSync('./profiles', { recursive: true });
 
   const renderer = new Renderer();
-  const http = new HttpService();
 
   for (const cardId of cardIds) {
     if (!listCards().includes(cardId)) {
@@ -35,7 +55,7 @@ async function main() {
 
     let data: Record<string, unknown>;
     if (cardId === 'wordmark') {
-      data = await card.fetchData(http);
+      data = await card.fetchData();
     } else {
       data = mockData[cardId];
       if (!data) {
