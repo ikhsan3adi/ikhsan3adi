@@ -35,6 +35,7 @@ jobs:
           CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
           GITLAB_USERNAME: ${{ github.repository_owner }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CARD_IDS: github-stats,codeberg-stats,gitlab-stats,wordmark
         run: bun run start
 
