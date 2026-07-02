@@ -8,10 +8,13 @@ import { CodebergStatsFetcher } from './codeberg-stats.fetcher'
 export class CodebergStatsCard implements ICard {
   readonly id = 'codeberg-stats'
 
-  constructor(private username: string) {}
+  constructor(
+    private http: HttpService,
+    private username: string
+  ) {}
 
-  async fetchData(http: HttpService): Promise<Record<string, unknown>> {
-    const fetcher = new CodebergStatsFetcher(http, this.username)
+  async fetchData(): Promise<Record<string, unknown>> {
+    const fetcher = new CodebergStatsFetcher(this.http, this.username)
     const data = await fetcher.fetch()
     return { ...data, platformName: 'Codeberg', prLabel: 'Pull Requests' }
   }

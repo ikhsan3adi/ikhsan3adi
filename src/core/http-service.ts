@@ -6,18 +6,31 @@ export class HttpService {
   constructor(token?: string) {
     this.headers = {
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      'Content-Type': 'application/json',
       'User-Agent': 'stats-generator'
     }
   }
 
-  private async _fetch(url: string, accept?: string): Promise<Response> {
-    const headers: Record<string, string> = {
+  private async _fetch(
+    method: 'GET' | 'POST',
+    url: string,
+    data: any = null,
+    accept?: string,
+    headers: Record<string, string> = {}
+  ): Promise<Response> {
+    const mergedHeaders: Record<string, string> = {
       ...this.headers,
-      ...(accept ? { Accept: accept } : {})
+      ...(accept ? { Accept: accept } : {}),
+      ...headers
     }
 
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-      const res: Response = await fetch(url, { headers })
+      const res: Response = await fetch(url, {
+        method,
+        headers: mergedHeaders,
+        body: data ? JSON.stringify(data) : null
+      })
+
       if (res.status === 401) throw new Error('Invalid or missing token')
 
       if (res.status === 403 || res.status === 429) {
@@ -42,7 +55,12 @@ export class HttpService {
   }
 
   async get<T>(url: string, accept?: string): Promise<T> {
-    const res = await this._fetch(url, accept)
+    const res = await this._fetch('GET', url, null, accept)
+    return res.json()
+  }
+
+  async post<T>(url: string, data: any, accept?: string): Promise<T> {
+    const res = await this._fetch('POST', url, data, accept)
     return res.json()
   }
 
@@ -51,7 +69,7 @@ export class HttpService {
     let url: string | null = initialUrl
 
     while (url) {
-      const res = await this._fetch(url, accept)
+      const res = await this._fetch('GET', url, accept)
       const data: T[] = await res.json()
       results.push(...data)
 
@@ -79,7 +97,7 @@ export class HttpService {
 
     while (true) {
       const url = `${baseUrl}${separator}page=${page}&per_page=${perPage}`
-      const res = await this._fetch(url, accept)
+      const res = await this._fetch('GET', url, accept)
       const data: T[] = await res.json()
       if (data.length === 0) break
       results.push(...data)
@@ -94,7 +112,7 @@ export class HttpService {
     headerName: string = 'X-Total-Count',
     accept?: string
   ): Promise<number> {
-    const res = await this._fetch(url, accept)
+    const res = await this._fetch('GET', url, accept)
     const total = res.headers.get(headerName)
     return total ? parseInt(total, 10) : 0
   }

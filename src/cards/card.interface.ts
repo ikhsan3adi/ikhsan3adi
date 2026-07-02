@@ -10,7 +10,7 @@ export interface CardAssets {
 
 export interface ICard {
   readonly id: string
-  fetchData(http: HttpService): Promise<Record<string, unknown>>
+  fetchData(): Promise<Record<string, unknown>>
   getTemplate(): string
   getConfig(): Record<string, unknown>
   getAssets(): CardAssets

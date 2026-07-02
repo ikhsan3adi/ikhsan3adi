@@ -8,10 +8,13 @@ import { GitHubStatsFetcher } from './github-stats.fetcher'
 export class GitHubStatsCard implements ICard {
   readonly id = 'github-stats'
 
-  constructor(private username: string) {}
+  constructor(
+    private http: HttpService,
+    private username: string
+  ) {}
 
-  async fetchData(http: HttpService): Promise<Record<string, unknown>> {
-    const fetcher = new GitHubStatsFetcher(http, this.username)
+  async fetchData(): Promise<Record<string, unknown>> {
+    const fetcher = new GitHubStatsFetcher(this.http, this.username)
     const data = await fetcher.fetch()
     return { ...data, platformName: 'Github', prLabel: 'Pull Requests' }
   }

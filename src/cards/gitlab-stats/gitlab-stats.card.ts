@@ -8,10 +8,13 @@ import { GitLabStatsFetcher } from './gitlab-stats.fetcher'
 export class GitLabStatsCard implements ICard {
   readonly id = 'gitlab-stats'
 
-  constructor(private username: string) {}
+  constructor(
+    private http: HttpService,
+    private username: string
+  ) {}
 
-  async fetchData(http: HttpService): Promise<Record<string, unknown>> {
-    const fetcher = new GitLabStatsFetcher(http, this.username)
+  async fetchData(): Promise<Record<string, unknown>> {
+    const fetcher = new GitLabStatsFetcher(this.http, this.username)
     const data = await fetcher.fetch()
     return { ...data, platformName: 'GitLab', prLabel: 'Merge Requests' }
   }
