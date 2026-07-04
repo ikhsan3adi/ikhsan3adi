@@ -43,15 +43,18 @@ int main()
     string info = "I'm currently an informatics engineering (or computer science) student.";
 
     vector<string> currently_learning = {
+        "AI Agents",
+        "Fullstack Dev",
+        "DevOps",
+        "DSA",
         "Software Engineering",
         "Android / Flutter Dev",
-        "Image Processing",
-        "Backend Dev",
+        "Softskills",
     };
 
     // Don't take it seriously
     map<string, set<string>> something_about_me = {
-        {"Hobbies", {"Walking", "Cycling", "Write something like this"}},
+        {"Hobbies", {"Walking", "Running", "Cycling", "Write something like this"}},
         {"Favorite Animal", {"Cat"}},
         {"Operating System", {"Arch Linux"}},
         {"Favorite App", {"Web Browser", "Terminal"}},
