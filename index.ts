@@ -60,8 +60,10 @@ function getUsername(cardId: string): string {
       return getRequired('CODEBERG_USERNAME')
     case 'gitlab-stats':
       return getRequired('GITLAB_USERNAME')
+    case 'wordmark':
+      return getRequired('GITHUB_USERNAME')
     default:
-      return ''
+      return getRequired('GITHUB_USERNAME')
   }
 }
 
