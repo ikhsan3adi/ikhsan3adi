@@ -9,7 +9,7 @@ interface SearchResult {
   total_count: number
 }
 
-export interface GitHubStatsData {
+interface GitHubStatsData {
   username: string
   totalStars: number
   totalCommits: number

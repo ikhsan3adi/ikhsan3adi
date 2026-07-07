@@ -15,7 +15,13 @@ const registry: Record<string, CardFactory> = {
     new CodebergStatsCard(opts.http as HttpService, opts.username as string),
   'gitlab-stats': (opts) =>
     new GitLabStatsCard(opts.http as HttpService, opts.username as string),
-  wordmark: (opts) => new WordmarkCard(opts.llmService as LLMService)
+  wordmark: (opts) =>
+    new WordmarkCard(
+      opts.http as HttpService,
+      opts.llmService as LLMService,
+      opts.username as string | undefined,
+      opts.ghToken as string | undefined
+    )
 }
 
 export function createCard(

@@ -54,22 +54,35 @@ export class HttpService {
     throw new Error(`Max retries exceeded for ${url}`)
   }
 
-  async get<T>(url: string, accept?: string): Promise<T> {
-    const res = await this._fetch('GET', url, null, accept)
+  async get<T>(
+    url: string,
+    accept?: string,
+    headers?: Record<string, string>
+  ): Promise<T> {
+    const res = await this._fetch('GET', url, null, accept, headers)
     return res.json()
   }
 
-  async post<T>(url: string, data: any, accept?: string): Promise<T> {
-    const res = await this._fetch('POST', url, data, accept)
+  async post<T>(
+    url: string,
+    data: any,
+    accept?: string,
+    headers?: Record<string, string>
+  ): Promise<T> {
+    const res = await this._fetch('POST', url, data, accept, headers)
     return res.json()
   }
 
-  async paginate<T>(initialUrl: string, accept?: string): Promise<T[]> {
+  async paginate<T>(
+    initialUrl: string,
+    accept?: string,
+    headers?: Record<string, string>
+  ): Promise<T[]> {
     const results: T[] = []
     let url: string | null = initialUrl
 
     while (url) {
-      const res = await this._fetch('GET', url, accept)
+      const res = await this._fetch('GET', url, null, accept, headers)
       const data: T[] = await res.json()
       results.push(...data)
 
@@ -89,7 +102,8 @@ export class HttpService {
   async paginateByPage<T>(
     baseUrl: string,
     perPage: number = 100,
-    accept?: string
+    accept?: string,
+    headers?: Record<string, string>
   ): Promise<T[]> {
     const results: T[] = []
     let page = 1
@@ -97,7 +111,7 @@ export class HttpService {
 
     while (true) {
       const url = `${baseUrl}${separator}page=${page}&per_page=${perPage}`
-      const res = await this._fetch('GET', url, accept)
+      const res = await this._fetch('GET', url, null, accept, headers)
       const data: T[] = await res.json()
       if (data.length === 0) break
       results.push(...data)
@@ -110,9 +124,10 @@ export class HttpService {
   async countFromHeader(
     url: string,
     headerName: string = 'X-Total-Count',
-    accept?: string
+    accept?: string,
+    headers?: Record<string, string>
   ): Promise<number> {
-    const res = await this._fetch('GET', url, accept)
+    const res = await this._fetch('GET', url, null, accept, headers)
     const total = res.headers.get(headerName)
     return total ? parseInt(total, 10) : 0
   }

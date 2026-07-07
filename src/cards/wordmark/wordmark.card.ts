@@ -3,6 +3,7 @@ import { resolve } from 'path'
 import type { ICard, CardAssets } from '../card.interface'
 import { WordmarkFetcher } from './wordmark.fetcher'
 import { LLMService } from '../../core/llm-service'
+import { HttpService } from '../../core/http-service'
 
 const SVG_LIGHT = readFileSync(
   resolve(__dirname, 'wordmark-ikhsan3adi-light.svg'),
@@ -17,8 +18,18 @@ export class WordmarkCard implements ICard {
   readonly id = 'wordmark'
   private fetcher: WordmarkFetcher
 
-  constructor(llmService: LLMService) {
-    this.fetcher = new WordmarkFetcher(llmService)
+  constructor(
+    httpService: HttpService,
+    llmService: LLMService,
+    username?: string,
+    ghToken?: string
+  ) {
+    this.fetcher = new WordmarkFetcher(
+      httpService,
+      llmService,
+      username,
+      ghToken
+    )
   }
 
   async fetchData(): Promise<Record<string, unknown>> {

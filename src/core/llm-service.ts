@@ -1,5 +1,6 @@
 import { HttpService } from './http-service'
 import {
+  ChatCompletionMessage,
   ChatCompletionRequest,
   ChatCompletionRequestFormatType,
   ChatCompletionResponse
@@ -24,7 +25,7 @@ export class LLMService {
   private model: string
 
   async chatCompletion(
-    prompt: string,
+    messages: ChatCompletionMessage[],
     response_format_type: ChatCompletionRequestFormatType = 'text'
   ): Promise<ChatCompletionResponse> {
     if (!this.apiKey) {
@@ -33,12 +34,7 @@ export class LLMService {
 
     const body: ChatCompletionRequest = {
       model: this.model,
-      messages: [
-        {
-          role: 'system',
-          content: prompt
-        }
-      ],
+      messages,
       response_format: { type: response_format_type }
     }
 

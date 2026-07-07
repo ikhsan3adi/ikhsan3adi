@@ -1,10 +1,25 @@
+import { HttpService } from '../../core/http-service'
 import { LLMService } from '../../core/llm-service'
+import { ChatCompletionMessage } from '../../core/llm.types'
+import type { GitHubEvent } from '../../shared/github/github-events.types'
+import {
+  cleanGitHubEvents,
+  buildSystemPrompt
+} from '../../shared/github/github-events.utils'
 
 export class WordmarkFetcher {
-  constructor(private llmService: LLMService) {
-    const jakartaDate = new Date(Date.now() + this.TIMEZONE * 60 * 60 * 1000)
+  constructor(
+    private httpService: HttpService,
+    private llmService: LLMService,
+    username?: string,
+    ghToken?: string
+  ) {
+    this.username = username ?? 'ikhsan3adi'
+    this.ghToken = ghToken
 
-    this.day = jakartaDate.getUTCDay()
+    const date = new Date(Date.now() + this.TIMEZONE * 60 * 60 * 1000)
+
+    this.day = date.getUTCDay()
 
     this.PROMPT = `You are a minimal, humble, and conversational text generator. Your only job is to generate a single daily status sentence for a GitHub profile based on the day of the week provided.
 
@@ -14,19 +29,15 @@ Strictly follow these guidelines:
 3. Content: Focus on simple human elements—handling daily routines, sorting through everyday problems, learning something new, or trying to make life just a bit easier for people.
 4. Constraints: 
   - Write exactly ONE short sentence.
-  - Do NOT use heavy software/engineering jargon (avoid words like "architecture", "resilient", "engineering", "complexities").
   - Do NOT mention coffee.
   - Do NOT use emojis.
   - Do NOT wrap the output in quotes.
-  - DO NOT mention tech stack, framework, or libraries.
+  - USE my github activity for more information
   - Prefer natural language over technical jargon, but
   - Randomly choosing between English and Indonesian or Mix of both
+  - USE english for day name
 
-Reference Examples of the style and vocabulary required:
-${this.sentences.map((sentence) => `- "${sentence}"`).join('\n')}
-
-Input day (Date.getUTCDay()): ${this.day}
-    `
+Input day (Date.getUTCDay()): ${this.day}`
   }
 
   readonly TIMEZONE = 7 // Asia/Jakarta
@@ -43,10 +54,32 @@ Input day (Date.getUTCDay()): ${this.day}
 
   private day: number
   private PROMPT: string
+  private username: string
+  private ghToken?: string
 
   async fetch(): Promise<{ sentence: string }> {
     try {
-      const res = await this.llmService.chatCompletion(this.PROMPT)
+      const events = await this.httpService.get<GitHubEvent[]>(
+        `https://api.github.com/users/${this.username}/events/public`,
+        'application/vnd.github.v3+json',
+        this.ghToken ? { Authorization: `Bearer ${this.ghToken}` } : undefined
+      )
+
+      const summary = cleanGitHubEvents(events)
+      const systemContent = buildSystemPrompt(this.username, summary)
+
+      const messages: ChatCompletionMessage[] = [
+        {
+          role: 'system',
+          content: systemContent
+        },
+        {
+          role: 'user',
+          content: this.PROMPT
+        }
+      ]
+
+      const res = await this.llmService.chatCompletion(messages)
 
       return { sentence: res.choices[0].message.content }
     } catch (e) {

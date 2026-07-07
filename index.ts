@@ -17,15 +17,15 @@ function getRequired(name: string): string {
 function getLlmService(cardId: string, http?: HttpService): LLMService {
   const openRouter = {
     baseUrl: 'https://openrouter.ai/api/v1',
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: getRequired('OPENAI_API_KEY'),
     model: 'cohere/north-mini-code:free'
   }
 
-  const opencodeZen = {
-    baseUrl: 'https://opencode.ai/zen/v1',
-    apiKey: process.env.OPENAI_API_KEY,
-    model: 'big-pickle'
-  }
+  // const opencodeZen = {
+  //   baseUrl: 'https://opencode.ai/zen/v1',
+  //   apiKey: getRequired('OPENAI_API_KEY'),
+  //   model: 'big-pickle'
+  // }
 
   const selected = openRouter
 
@@ -33,20 +33,20 @@ function getLlmService(cardId: string, http?: HttpService): LLMService {
     selected.baseUrl,
     selected.apiKey ?? '',
     selected.model,
-    http,
+    http
   )
 }
 
 function getHttp(cardId: string): HttpService {
   switch (cardId) {
     case 'github-stats':
-      return new HttpService(process.env.GITHUB_TOKEN)
+      return new HttpService(getRequired('GITHUB_TOKEN'))
     case 'codeberg-stats':
-      return new HttpService(process.env.CODEBERG_TOKEN)
+      return new HttpService(getRequired('CODEBERG_TOKEN'))
     case 'gitlab-stats':
-      return new HttpService(process.env.GITLAB_TOKEN)
+      return new HttpService(getRequired('GITLAB_TOKEN'))
     case 'wordmark':
-      return new HttpService(process.env.OPENAI_API_KEY)
+      return new HttpService(getRequired('OPENAI_API_KEY'))
     default:
       return new HttpService()
   }
@@ -66,7 +66,7 @@ function getUsername(cardId: string): string {
 }
 
 async function main() {
-  const cardIds = (process.env.CARD_IDS || 'github-stats')
+  const cardIds = (getRequired('CARD_IDS') || 'github-stats')
     .split(',')
     .map((s) => s.trim())
 
@@ -85,7 +85,12 @@ async function main() {
     const username = getUsername(cardId)
     const http = getHttp(cardId)
     const llmService = getLlmService(cardId, http)
-    const card = createCard(cardId, { http, llmService, username })
+    const card = createCard(cardId, {
+      http,
+      llmService,
+      username,
+      ghToken: getRequired('GITHUB_TOKEN')
+    })
     console.log(`[${cardId}] Fetching data...`)
     const data = await card.fetchData()
     console.log(`[${cardId}] Data:`, data)
