@@ -32,10 +32,10 @@ Strictly follow these guidelines:
   - Do NOT mention coffee.
   - Do NOT use emojis.
   - Do NOT wrap the output in quotes.
-  - USE my github activity for more information
+  - USE my github activity for more information.
   - Prefer natural language over technical jargon, but
-  - Randomly choosing between English and Indonesian or Mix of both
-  - USE english for day name
+  - Randomly choosing between English and Indonesian or Mix of both.
+  - USE english for day name.
 
 Input day (Date.getUTCDay()): ${this.day}`
   }
