@@ -120,13 +120,41 @@ function getEventPriority(type: string): number {
   return EVENT_PRIORITY[type] ?? 99
 }
 
+function getTimeAgo(timestamp: string): string {
+  const now = new Date()
+  const eventDate = new Date(timestamp)
+  const diffMs = now.getTime() - eventDate.getTime()
+  
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24))
+  const diffHours = Math.floor(diffMs / (1000 * 60 * 60))
+  const diffMinutes = Math.floor(diffMs / (1000 * 60))
+  
+  if (diffMinutes < 60) {
+    return `${diffMinutes} minutes ago`
+  } else if (diffHours < 24) {
+    return `${diffHours} hours ago`
+  } else if (diffDays === 0) {
+    return 'today'
+  } else if (diffDays === 1) {
+    return 'yesterday'
+  } else if (diffDays <= 7) {
+    return `${diffDays} days ago`
+  } else {
+    return eventDate.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' })
+  }
+}
+
 export function cleanGitHubEvents(
   events: GitHubEvent[]
 ): GitHubActivitySummary {
-  const cleaned = events
-    .filter((e) => e.public)
-    .map(cleanEvent)
-    .sort((a, b) => getEventPriority(a.type) - getEventPriority(b.type))
+  // Filter to public events only
+  const publicEvents = events.filter((e) => e.public)
+  
+  // Convert to cleaned format
+  const cleaned = publicEvents.map(cleanEvent)
+
+  // Sort by time (newest first) for better handling
+  cleaned.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
 
   const activeRepos = [...new Set(cleaned.map((e) => e.repo))]
 
@@ -152,33 +180,93 @@ export function buildSystemPrompt(
     return 'No recent GitHub activity.'
   }
 
-  const repoActivity: Record<
-    string,
-    { actions: string[]; minPriority: number }
-  > = {}
-  for (const e of events) {
-    if (!repoActivity[e.repo]) {
-      repoActivity[e.repo] = {
-        actions: [],
-        minPriority: getEventPriority(e.type)
-      }
-    }
-    repoActivity[e.repo].actions.push(e.details)
-    const p = getEventPriority(e.type)
-    if (p < repoActivity[e.repo].minPriority) {
-      repoActivity[e.repo].minPriority = p
-    }
-  }
-
-  const sorted = Object.entries(repoActivity).sort(
-    ([, a], [, b]) => a.minPriority - b.minPriority
+  // Filter events to only include the last 7 days
+  const oneWeekAgo = new Date()
+  oneWeekAgo.setDate(oneWeekAgo.getDate() - 7)
+  const filteredEvents = events.filter(
+    e => new Date(e.createdAt) >= oneWeekAgo
   )
 
-  const parts: string[] = []
-  for (const [repo, { actions }] of sorted) {
-    const unique = [...new Set(actions)]
-    parts.push(`${repo}: ${unique.join(', ')}`)
+  // Group events by time period with repo information
+  const timeGroups: Record<string, Record<string, string[]>> = {}
+  
+  for (const e of filteredEvents) {
+    const timeAgo = getTimeAgo(e.createdAt)
+    const repo = e.repo
+    const action = e.details
+    
+    if (!timeGroups[timeAgo]) {
+      timeGroups[timeAgo] = {}
+    }
+    
+    if (!timeGroups[timeAgo][repo]) {
+      timeGroups[timeAgo][repo] = []
+    }
+    
+    if (!timeGroups[timeAgo][repo].includes(action)) {
+      timeGroups[timeAgo][repo].push(action)
+    }
   }
 
-  return `${username}'s recent GitHub activity:\n${parts.join('\n')}`
+  // Sort time periods in reverse chronological order
+  const timeOrder = ['today', 'yesterday']
+  const sortedTimeGroups: [string, Record<string, string[]>][] = []
+  
+  // Add today and yesterday first
+  for (const time of timeOrder) {
+    if (timeGroups[time]) {
+      sortedTimeGroups.push([time, timeGroups[time]])
+    }
+  }
+  
+  // Add other periods in reverse chronological order
+  const otherTimes = Object.keys(timeGroups).filter(
+    t => !timeOrder.includes(t) && t !== 'No recent GitHub activity'
+  ).sort((a, b) => {
+    if (a === 'No recent GitHub activity') return 1
+    if (b === 'No recent GitHub activity') return -1
+    return getTimeAgo(b).localeCompare(getTimeAgo(a))
+  })
+  
+  for (const time of otherTimes) {
+    sortedTimeGroups.push([time, timeGroups[time]])
+  }
+
+  const parts: string[] = []
+  parts.push(`${username}'s recent GitHub activity:`)
+  
+  for (const [time, repoActivities] of sortedTimeGroups) {
+    if (time === 'No recent GitHub activity') continue
+    
+    parts.push(`${time.charAt(0).toUpperCase() + time.slice(1)}:`)
+    
+    // Sort repos by their most important activity within this time period
+    const sortedRepos = Object.entries(repoActivities).sort(
+      ([, a], [, b]) => {
+        // Prioritize push events over stars
+        const hasPushA = a.some(act => act.includes('pushed'))
+        const hasPushB = b.some(act => act.includes('pushed'))
+        if (hasPushA && !hasPushB) return -1
+        if (!hasPushA && hasPushB) return 1
+        return 0
+      }
+    )
+    
+    for (const [repo, actions] of sortedRepos) {
+      if (actions.length === 1) {
+        parts.push(`  - ${repo}: ${actions[0]}`)
+      } else {
+        parts.push(`  - ${repo}:`)
+        for (const action of actions) {
+          parts.push(`    - ${action}`)
+        }
+      }
+    }
+  }
+
+  if (sortedTimeGroups.length === 0) {
+    return 'No recent GitHub activity.'
+  }
+
+  return parts.join('\n')
 }
