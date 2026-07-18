@@ -67,8 +67,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     string full_name = "Ikhsan Satriadi";
 
     string main_handle = "ikhsan3adi";
@@ -81,7 +80,6 @@ int main()
         "DevOps",
         "DSA",
         "Software Engineering",
-        "Android & Flutter Dev",
         "Softskills",
     };
 
@@ -94,8 +92,6 @@ int main()
         {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop"}},
         {"Girlfriend", {}},
     };
-
-    return 0;
 }
 ```
 
