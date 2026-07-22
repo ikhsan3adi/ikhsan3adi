@@ -46,7 +46,7 @@ export class WordmarkCard implements ICard {
   }
 
   getConfig(): Record<string, unknown> {
-    return { cardWidth: 576, cardHeight: 176 }
+    return { cardWidth: 667, cardHeight: 176 }
   }
 
   getAssets(): CardAssets {

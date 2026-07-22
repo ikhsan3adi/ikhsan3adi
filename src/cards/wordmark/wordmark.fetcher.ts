@@ -68,6 +68,8 @@ Input day (Date.getUTCDay()): ${this.day}`
       const summary = cleanGitHubEvents(events)
       const systemContent = buildSystemPrompt(this.username, summary)
 
+      console.log(systemContent)
+
       const messages: ChatCompletionMessage[] = [
         {
           role: 'system',
