@@ -15,19 +15,19 @@ function getRequired(name: string): string {
 }
 
 function getLlmService(cardId: string, http?: HttpService): LLMService {
-  const openRouter = {
-    baseUrl: 'https://openrouter.ai/api/v1',
-    apiKey: getRequired('OPENAI_API_KEY'),
-    model: 'cohere/north-mini-code:free'
-  }
-
-  // const opencodeZen = {
-  //   baseUrl: 'https://opencode.ai/zen/v1',
+  // const openRouter = {
+  //   baseUrl: 'https://openrouter.ai/api/v1',
   //   apiKey: getRequired('OPENAI_API_KEY'),
-  //   model: 'big-pickle'
+  //   model: 'cohere/north-mini-code:free'
   // }
 
-  const selected = openRouter
+  const opencodeZen = {
+    baseUrl: 'https://opencode.ai/zen/v1',
+    apiKey: getRequired('OPENAI_API_KEY'),
+    model: 'nemotron-3-ultra-free'
+  }
+
+  const selected = opencodeZen
 
   return new LLMService(
     selected.baseUrl,

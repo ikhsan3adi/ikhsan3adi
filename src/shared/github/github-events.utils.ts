@@ -124,8 +124,8 @@ function cleanEvent(event: GitHubEvent): CleanedGitHubEvent {
 
 const EVENT_PRIORITY: Record<string, number> = {
   PullRequestEvent: 1,
-  PullRequestReviewEvent: 2,
-  PushEvent: 3,
+  PushEvent: 2,
+  PullRequestReviewEvent: 3,
   IssuesEvent: 4,
   IssueCommentEvent: 5,
   ReleaseEvent: 6,
@@ -204,11 +204,11 @@ export function buildSystemPrompt(
     return 'No recent GitHub activity.'
   }
 
-  // Filter events to only include the last 7 days
-  const oneWeekAgo = new Date()
-  oneWeekAgo.setDate(oneWeekAgo.getDate() - 7)
+  // Filter events to only include the last 1 days
+  const oneDayAgo = new Date()
+  oneDayAgo.setDate(oneDayAgo.getDate() - 1)
   const filteredEvents = events.filter(
-    (e) => new Date(e.createdAt) >= oneWeekAgo
+    (e) => new Date(e.createdAt) >= oneDayAgo
   )
 
   // Group events by day with repo information
@@ -257,9 +257,9 @@ export function buildSystemPrompt(
 
     for (const [repo, actions] of sortedRepos) {
       if (actions.length === 1) {
-        parts.push(`  - ${repo}: ${actions[0]}`)
+        parts.push(`  - repo: '${repo}' - ${actions[0]}`)
       } else {
-        parts.push(`  - ${repo}:`)
+        parts.push(`  - repo: '${repo}':`)
         for (const action of actions) {
           parts.push(`    - ${action}`)
         }

@@ -21,35 +21,57 @@ export class WordmarkFetcher {
 
     this.day = date.getUTCDay()
 
-    this.PROMPT = `You are a minimal, humble, and conversational text generator. Your only job is to generate a single daily status sentence for a GitHub profile based on the day of the week provided.
+    this.PROMPT = `Generate TWO daily status sentences for a GitHub profile — one in Indonesian, one in English.
 
-Strictly follow these guidelines:
+Guidelines for BOTH sentences:
 1. Tone: Extremely grounded, casual, and relaxed. Speak like a normal human chatting casually—never poetic, never overly ambitious, and never formal.
-2. Structure: Start naturally with a casual mention of the day or time (e.g., "Just a simple start to Monday...", "It's already Wednesday...", "Spending this Tuesday...").
+2. Structure: Start naturally with a casual mention of the day in the respective language (e.g. "Senin yang sederhana..." / "Just a simple start to Monday...").
 3. Content: Focus on simple human elements—handling daily routines, sorting through everyday problems, learning something new, or trying to make life just a bit easier for people.
-4. Constraints: 
-  - Write exactly ONE short sentence.
+4. Constraints:
+  - Exactly ONE short sentence per language.
   - Do NOT mention coffee.
   - Do NOT use emojis.
-  - Do NOT wrap the output in quotes.
-  - USE my github activity for more information.
-  - Prefer natural language over technical jargon, but
-  - Randomly choosing between English and Indonesian or Mix of both.
-  - USE english for day name.
+  - Do NOT wrap in quotes.
+  - Use my GitHub activity for reference.
+  - Prefer natural language over technical jargon.
 
-Input day (Date.getUTCDay()): ${this.day}`
+Input day (Date.getUTCDay()): ${this.day}
+
+Return in this exact format (no extra text):
+SENTENCE_ID|||SENTENCE_EN`
   }
 
   readonly TIMEZONE = 7 // Asia/Jakarta
 
-  private readonly sentences = [
-    'Just a relaxed Sunday evening to reset the mind for whatever comes next.',
-    'Just a simple start to Monday, taking things one step at a time.',
-    'Spending my Tuesday figuring out everyday bugs and keeping it steady.',
-    "It's Wednesday already—halfway through the week and just making things work.",
-    'Tinkering with code this Thursday morning to make everyday tasks just a bit easier.',
-    'Finishing up a few simple ideas as Friday comes to a quiet end.',
-    'Taking a break this Saturday to rest, recharge, and step away from the screen.'
+  private readonly fallbacks = [
+    {
+      id: 'Minggu santai, reset pikiran buat minggu depan.',
+      en: 'Just a relaxed Sunday evening to reset the mind for whatever comes next.'
+    },
+    {
+      id: 'Senin sederhana, jalan pelan-pelan aja.',
+      en: 'Just a simple start to Monday, taking things one step at a time.'
+    },
+    {
+      id: 'Selasa biasa, ngurus bug sehari-hari.',
+      en: 'Spending my Tuesday figuring out everyday bugs and keeping it steady.'
+    },
+    {
+      id: 'Rabu udah tengah minggu, tetap jalan.',
+      en: "It's Wednesday already—halfway through the week and just making things work."
+    },
+    {
+      id: 'Kamis pagi nge-tweak kode biar makin enak.',
+      en: 'Tinkering with code this Thursday morning to make everyday tasks just a bit easier.'
+    },
+    {
+      id: 'Jumat sore, finishing ide-ide sederhana.',
+      en: 'Finishing up a few simple ideas as Friday comes to a quiet end.'
+    },
+    {
+      id: 'Sabtu istirahat, recharge dulu.',
+      en: 'Taking a break this Saturday to rest, recharge, and step away from the screen.'
+    }
   ]
 
   private day: number
@@ -57,7 +79,7 @@ Input day (Date.getUTCDay()): ${this.day}`
   private username: string
   private ghToken?: string
 
-  async fetch(): Promise<{ sentence: string }> {
+  async fetch(): Promise<{ sentenceId: string; sentenceEn: string }> {
     try {
       const events = await this.httpService.get<GitHubEvent[]>(
         `https://api.github.com/users/${this.username}/events/public`,
@@ -82,11 +104,19 @@ Input day (Date.getUTCDay()): ${this.day}`
       ]
 
       const res = await this.llmService.chatCompletion(messages)
+      const raw = res.choices[0].message.content
+      const parts = raw.split('|||').map((s) => s.trim())
 
-      return { sentence: res.choices[0].message.content }
+      return {
+        sentenceId: parts[0] || this.fallbacks[this.day].id,
+        sentenceEn: parts[1] || this.fallbacks[this.day].en
+      }
     } catch (e) {
       console.log('Error fetching wordmark:', e)
-      return { sentence: this.sentences[this.day] }
+      return {
+        sentenceId: this.fallbacks[this.day].id,
+        sentenceEn: this.fallbacks[this.day].en
+      }
     }
   }
 }

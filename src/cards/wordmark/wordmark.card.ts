@@ -33,9 +33,10 @@ export class WordmarkCard implements ICard {
   }
 
   async fetchData(): Promise<Record<string, unknown>> {
-    const data = await this.fetcher.fetch()
+    const { sentenceId, sentenceEn } = await this.fetcher.fetch()
     return {
-      ...data,
+      sentenceId,
+      sentenceEn,
       wordmarkSvgLight: SVG_LIGHT,
       wordmarkSvgDark: SVG_DARK
     }
@@ -46,7 +47,7 @@ export class WordmarkCard implements ICard {
   }
 
   getConfig(): Record<string, unknown> {
-    return { cardWidth: 667, cardHeight: 176 }
+    return { cardWidth: 576, cardHeight: 176 }
   }
 
   getAssets(): CardAssets {

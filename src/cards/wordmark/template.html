@@ -15,13 +15,21 @@
     >
       {{#if dark}}{{{wordmarkSvgDark}}}{{else}}{{{wordmarkSvgLight}}}{{/if}}
 
-      <div class="w-full flex justify-center">
-        <p
-          class="w-full text-sm font-space-grotesk md:text-base text-text dark:text-white max-w-sm text-center leading-relaxed tracking-wide italic"
-        >
-          {{sentence}}
-        </p>
-      </div>
+      <p
+        class="w-full text-sm font-space-grotesk md:text-base text-text dark:text-white text-center leading-relaxed tracking-wide italic"
+      >
+        {{sentenceId}}
+      </p>
+
+      <div
+        class="w-[calc(100%-48px)] mx-auto h-px bg-gray-500 dark:bg-gray-600 my-3"
+      ></div>
+
+      <p
+        class="w-full text-sm font-space-grotesk md:text-base text-text dark:text-white text-center leading-relaxed tracking-wide italic"
+      >
+        {{sentenceEn}}
+      </p>
     </div>
   </body>
 </html>
