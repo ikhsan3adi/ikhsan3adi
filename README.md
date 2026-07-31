@@ -10,6 +10,7 @@ int main() {
     string info = "I'm currently an Informatics Engineering (or Computer Science) student.";
 
     vector<string> currently_learning = {
+        "Golang",
         "AI Agents",
         "Fullstack Dev",
         "DevOps",
