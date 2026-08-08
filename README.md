@@ -1,39 +1,14 @@
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    string full_name = "Ikhsan Satriadi";
-
-    string main_handle = "ikhsan3adi";
-
-    string info = "I'm currently an Informatics Engineering (or Computer Science) student.";
-
-    vector<string> currently_learning = {
-        "Golang",
-        "AI Agents",
-        "Fullstack Dev",
-        "DevOps",
-        "DSA",
-        "Software Engineering",
-        "Softskills",
-    };
-
-    // Don't take it seriously
-    map<string, set<string>> something_about_me = {
-        {"Hobbies", {"Walking", "Running", "Cycling", "Designing graphics", "Editing", "Writing things like this"}},
-        {"Favorite Animal", {"Cat"}},
-        {"Operating System", {"Arch Linux"}},
-        {"Favorite App", {"Web Browser", "Terminal"}},
-        {"Hates", {"Windows 11", "Slow & Bloated Apps", "AI Slop"}},
-        {"Girlfriend", {}},
-    };
+```go
+func main() {
+    fmt.Println("Hello There!")
 }
 ```
 
 ---
 
-<details>
+<!-- keren bgt jir -->
+
+<!-- <details>
   <summary><code>696b6873616e33616469</code></summary>
   <h1 align="center" title="ikhsan3adi" id="ikhsan3adi">
     <picture>
@@ -48,7 +23,6 @@ int main() {
     </picture>
   </h1>
   
-  <!-- keren bgt jir -->
   
   <div align="center">
     <a href="https://ikhsan3adi.github.io" target="_blank" title="Visit my portfolio website">
@@ -94,6 +68,6 @@ int main() {
 
 > **None of these stats are accurate!!!** (especially commit count)
 
-</details>
+</details> -->
 
 <!-- awas disiram air keras -->
