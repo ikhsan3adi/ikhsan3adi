@@ -1,16 +1,4 @@
-<a href="https://star-history.dera.page/#ikhsan3adi/absensi-sekolah-qr-code&ikhsan3adi/absensi-karyawan-gps-barcode&ikhsan3adi/sistem-perpustakaan-qr-code">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code" />
-   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code" />
- </picture>
-</a>
-
----
-
-<!-- keren bgt jir -->
-
-<!-- <details>
+<details>
   <summary><code>696b6873616e33616469</code></summary>
   <h1 align="center" title="ikhsan3adi" id="ikhsan3adi">
     <picture>
@@ -25,6 +13,7 @@
     </picture>
   </h1>
   
+  <!-- keren bgt jir -->
   
   <div align="center">
     <a href="https://ikhsan3adi.github.io" target="_blank" title="Visit my portfolio website">
@@ -70,6 +59,6 @@
 
 > **None of these stats are accurate!!!** (especially commit count)
 
-</details> -->
+</details>
 
 <!-- awas disiram air keras -->
