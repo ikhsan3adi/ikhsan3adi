@@ -1,8 +1,10 @@
-```go
-func main() {
-    fmt.Println("Hello There!")
-}
-```
+<a href="https://star-history.dera.page/#ikhsan3adi/absensi-sekolah-qr-code&ikhsan3adi/absensi-karyawan-gps-barcode&ikhsan3adi/sistem-perpustakaan-qr-code">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=ikhsan3adi/absensi-sekolah-qr-code,ikhsan3adi/absensi-karyawan-gps-barcode,ikhsan3adi/sistem-perpustakaan-qr-code" />
+ </picture>
+</a>
 
 ---
 
